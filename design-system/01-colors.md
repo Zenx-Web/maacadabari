@@ -131,7 +131,7 @@ Dropdowns
 
 HEX
 
-#1A1A1A
+#111111
 
 Purpose
 
@@ -142,6 +142,10 @@ Dialogs
 Modals
 
 Feature boxes
+
+(Canonical value — previously listed here as #1A1A1A, which conflicted
+with the #111111 value already used under Component Colors -> Cards
+and under Tailwind Tokens -> Surface below. #111111 is canonical.)
 
 ---
 
@@ -175,11 +179,23 @@ rgba(255,255,255,0.72)
 
 Muted
 
-rgba(255,255,255,0.50)
+rgba(255,255,255,0.60)
+
+(Raised from 0.50 -> 0.60: at 0.50 opacity, Muted text computes to
+~5.3:1 contrast on the #050505 page background but only ~4.5:1 -
+razor-thin - on the #111111 card surface. 0.60 gives a safe ~6.8:1 on
+every surface in the palette.)
 
 Disabled
 
 rgba(255,255,255,0.30)
+
+(At 0.30 opacity, Disabled text computes to ~2.53:1 on #050505,
+failing WCAG AA even for large text. This is an intentional, scoped
+exemption - see design-system/12-accessibility.md -> Color Contrast.
+Disabled styling must only be applied to actually-disabled form
+controls (disabled/aria-disabled="true"), never to merely
+de-emphasized but interactive text.)
 
 Inverse
 
@@ -481,9 +497,18 @@ Text
 
 foreground: #FFFFFF
 
+Secondary
+
+secondary: rgba(255,255,255,0.72)
+
 Muted
 
-muted: rgba(255,255,255,0.72)
+muted: rgba(255,255,255,0.60)
+
+(Corrected: this token previously reused the Secondary value (0.72)
+under the "muted" name, which didn't match the Typography Colors ->
+Muted value (0.50, now 0.60) defined above. "secondary" and "muted"
+are now distinct tokens matching their Typography Colors counterparts.)
 
 ---
 

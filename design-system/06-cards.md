@@ -271,7 +271,7 @@ Mobile
 
 Default
 
-Surface Color
+Surface (#111111 — see design-system/01-colors.md -> Neutral Palette -> Surface)
 
 Glass Variant
 

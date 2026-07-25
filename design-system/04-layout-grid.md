@@ -43,6 +43,11 @@ Never present all content with equal visual importance.
 
 # Maximum Widths
 
+This document is the canonical source for container widths site-wide
+(design-system/03-spacing.md and design-system/13-responsive.md both
+reference the 3 containers defined here rather than redefining their
+own values).
+
 ## Reading Width
 
 768px

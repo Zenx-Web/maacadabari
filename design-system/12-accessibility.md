@@ -155,6 +155,24 @@ Never rely on color alone.
 
 ---
 
+# Documented Exemption: Disabled Text
+
+design-system/01-colors.md's Disabled text token (rgba(255,255,255,0.30))
+computes to ~2.53:1 on the #050505 background, below the 4.5:1 minimum
+above. This is an intentional, narrowly-scoped exemption per WCAG 2.2
+SC 1.4.3, which excludes "incidental text that is part of an inactive
+user interface component" from the contrast requirement.
+
+The `text-disabled` style may only be applied to actually-disabled
+form controls — an element carrying a native `disabled` attribute or
+`aria-disabled="true"`.
+
+It must never be applied to text that is merely de-emphasized but
+still interactive or informative — use Muted (rgba(255,255,255,0.60))
+for that instead, which passes 4.5:1 on every surface in the palette.
+
+---
+
 # Images
 
 Every meaningful image requires descriptive alt text.

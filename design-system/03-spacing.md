@@ -171,53 +171,34 @@ Premium layouts
 
 # Container Widths
 
-## Small
+Canonical source: design-system/04-layout-grid.md -> Maximum Widths / Containers.
+
+There are exactly 3 containers site-wide — do not add intermediate
+tiers here or elsewhere (a previous version of this section defined
+conflicting Medium/1024px and Large/1280px tiers that existed nowhere
+else in the design system; they have been removed):
+
+## Reading Container
 
 768px
 
-Reading content
-
-Blogs
-
-FAQs
+Reading content, FAQs, Policies, long-form course descriptions
 
 ---
 
-## Medium
+## Default Container
 
-1024px
+1200px
 
-General content
-
-Course pages
-
-Forms
+General content, Course pages, Forms, Homepage, Feature sections
 
 ---
 
-## Large
-
-1280px
-
-Homepage
-
-Landing pages
-
-Feature sections
-
----
-
-## Extra Large
+## Wide Container
 
 1440px
 
-Hero
-
-Showcase
-
-Gallery
-
-Interactive layouts
+Hero, Showcase, Gallery, Interactive layouts
 
 ---
 
@@ -531,57 +512,38 @@ Maintain minimum touch target size.
 
 # Tailwind Tokens
 
-Space 1
+Do not use Tailwind's bare numeric spacing utilities (p-4, gap-8, etc.)
+directly. A previous version of this section mapped named scale
+values to Tailwind's numeric aliases (e.g. "Space 32 = 64px"), but
+real Tailwind spacing is `N x 4px`, so `space-32` is actually 128px —
+exactly double what was documented here. Following the old table
+literally with a stock Tailwind config silently produces spacing
+twice as large as intended.
 
-2px
+Instead, define these named tokens under `theme.extend.spacing` in
+`tailwind.config.ts` (see repo-root `design-tokens.json` once
+authored), matching this document's own Spacing Scale vocabulary
+above:
 
-Space 2
+xs: 8px (p-xs, gap-xs, ...)
 
-4px
+sm: 16px
 
-Space 4
+md: 24px
 
-8px
+lg: 32px
 
-Space 6
+xl: 48px
 
-12px
+2xl: 64px
 
-Space 8
+3xl: 96px
 
-16px
+4xl: 128px
 
-Space 12
-
-24px
-
-Space 16
-
-32px
-
-Space 20
-
-40px
-
-Space 24
-
-48px
-
-Space 32
-
-64px
-
-Space 40
-
-80px
-
-Space 48
-
-96px
-
-Space 64
-
-128px
+Components should use `p-md`, `gap-xl`, `py-4xl`, etc. — never bare
+numeric Tailwind spacing utilities. This also makes the numeric-alias
+bug described above structurally impossible to reintroduce.
 
 ---
 

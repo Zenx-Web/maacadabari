@@ -99,9 +99,18 @@ Keep content centered.
 
 # Container Widths
 
+There are only 3 containers site-wide (see design-system/04-layout-grid.md
+-> Containers, the canonical source). The table below maps each
+breakpoint to which container is active and its padding — it does not
+define additional container-width tiers. (A previous version of this
+section listed "Desktop: 1280px Max" as if it were a 4th distinct
+container; it wasn't documented anywhere else and has been removed —
+Desktop uses the same Default Container as Laptop, just with more
+padding.)
+
 Mobile
 
-100%
+Fluid, 100% width
 
 Padding
 
@@ -111,7 +120,7 @@ Padding
 
 Tablet
 
-100%
+Fluid, 100% width
 
 Padding
 
@@ -121,7 +130,7 @@ Padding
 
 Laptop
 
-1200px Max
+Default Container (1200px max)
 
 Padding
 
@@ -131,7 +140,7 @@ Padding
 
 Desktop
 
-1280px Max
+Default Container (1200px max)
 
 Padding
 
@@ -141,7 +150,7 @@ Padding
 
 Large Desktop
 
-1440px Max
+Wide Container (1440px max)
 
 Padding
 
@@ -150,6 +159,14 @@ Padding
 ---
 
 # Grid Rules
+
+These are content-grid columns (how many cards/features sit side by
+side in a card grid, gallery, or feature grid) — a different concept
+from the underlying 12/8/4-column structural grid defined in
+design-system/04-layout-grid.md -> Grid System, which governs
+alignment and spacing, not how many visual items appear per row. A
+4-column content grid is simply 4 equal spans within the 12-column
+structural grid; the two numbers are not in conflict.
 
 Mobile
 
