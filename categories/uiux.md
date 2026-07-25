@@ -284,7 +284,7 @@ UI & UX Design Pro
 
 Duration
 
-384 Hours
+192 Hours
 
 Description
 

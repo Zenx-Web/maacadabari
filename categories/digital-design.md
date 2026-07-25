@@ -290,7 +290,7 @@ APDMC PLUS
 
 Duration
 
-602 Hours
+576 Hours
 
 Description
 
@@ -306,7 +306,7 @@ APDMD
 
 Duration
 
-432 Hours
+384 Hours
 
 Description
 

@@ -195,49 +195,53 @@ Visual Communication
 
 ## Topics
 
-Responsive Web Design
+Concepts of UI and UX Design
 
-HTML5
+UI & UX Design
 
-CSS3
+HTML
 
-Bootstrap
+Cascading Style Sheets
 
-JavaScript Fundamentals
+Designing with Framework
 
-WordPress
+Interactive Design
 
-Website Publishing
-
-Portfolio Website
+Video & Sound Editing
 
 ---
 
 ## Software
 
-Visual Studio Code
-
-Bootstrap
-
-WordPress
-
 Figma
 
-Chrome DevTools
+Adobe XD
+
+Dreamweaver
+
+Visual Studio Code
+
+Adobe Premiere
+
+Adobe Audition
+
+JavaScript
+
+Bootstrap
 
 ---
 
 ## Skills
 
-Website Design
+UI & UX Design
 
-Responsive Layout
+Web Development
 
-UI Design Basics
+Interactive Design
 
-Website Publishing
+Video & Sound Editing
 
-Portfolio Development
+Framework-based Design
 
 ---
 
@@ -263,15 +267,11 @@ Portfolio Projects
 
 ## Software
 
+Adobe Animate
+
 Adobe After Effects
 
-Adobe Premiere Pro
-
-Adobe Audition
-
-Media Encoder
-
-Canva
+Toon Boom Harmony
 
 ---
 
@@ -419,23 +419,25 @@ Graduates may pursue careers such as
 
 Graphic Designer
 
-Junior Web Designer
+UI & UX Designer
+
+Web Designer
+
+Digital Designer
+
+Designer for Interactive E-learning
+
+Digital Content Developer
+
+Video Editor
+
+Illustrator
 
 Social Media Designer
 
-Content Creator
+Media Packaging
 
-Motion Graphics Artist
-
-Digital Marketing Designer
-
-Creative Executive
-
-Visual Designer
-
-Freelance Designer
-
-Creative Assistant
+2D Animation
 
 ---
 

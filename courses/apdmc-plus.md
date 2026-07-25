@@ -6,7 +6,7 @@ Category: Digital Design & Content Creation
 
 Slug: apdmc-plus
 
-Duration: 602 Hours
+Duration: 576 Hours
 
 Learning Pathway:
 
@@ -45,7 +45,7 @@ Digital Design & Content Creation
 
 Duration
 
-602 Hours
+576 Hours
 
 Learning Mode
 
@@ -175,11 +175,21 @@ Adobe Photoshop
 
 Adobe Illustrator
 
+Adobe Lightroom
+
+Adobe InDesign
+
+Adobe Dimension
+
 Adobe Firefly
 
 ChatGPT
 
+DeepSeek
+
 Canva
+
+Canva AI Tools
 
 Leonardo AI
 
@@ -247,99 +257,117 @@ Creative Advertising
 
 ---
 
-# TERM III
+# TERM III: UI AND UX DESIGN
 
 ## Topics
 
-Motion Graphics
+Design Thinking
 
-Video Editing
+Principles of User Centric Design
 
-Storytelling
+Interactive Design
 
-Social Media Content
+AI for Interactive Design
 
-Commercial Design
+Web Pages - HTML & CSS
 
-Promotional Videos
+Responsive Framework
 
-Audio Editing
+JavaScript
+
+Content Management System
+
+No Code Design
+
+Concepts of Digital Marketing
+
+Industry Trends and Case Studies
 
 ---
 
 ## Software
 
-Adobe Premiere Pro
-
-Adobe After Effects
-
-Adobe Audition
-
-Media Encoder
-
----
-
-## Skills
-
-Video Editing
-
-Motion Graphics
-
-Visual Storytelling
-
-Content Production
-
-Commercial Design
-
----
-
-# TERM IV
-
-## Topics
-
-Responsive Web Design
-
-HTML5
-
-CSS3
-
-Bootstrap
-
-JavaScript Basics
-
-WordPress
-
-UI Design Fundamentals
-
-Portfolio Website
-
----
-
-## Software
-
-Visual Studio Code
+Miro
 
 Figma
 
-WordPress
+Visily
+
+Uizard
+
+Creatie AI
+
+Webflow
+
+VS Code
+
+Dreamweaver
 
 Bootstrap
 
-Chrome DevTools
+WordPress
 
 ---
 
 ## Skills
 
-Web Design
+Design Thinking
 
-Responsive Design
+User Centric Design
 
-UI Layout
+Interactive Design
 
-Website Development
+Responsive Web Development
 
-Portfolio Publishing
+Content Management
+
+---
+
+# TERM IV: 3D CONTENT DESIGN
+
+## Topics
+
+Introduction to Maya
+
+3D Modeling
+
+PBR Texturing
+
+CG Lighting
+
+Lighting & Rendering in Arnold
+
+Prop & Character Setup
+
+3D Animation
+
+Particles, Dynamics & Advanced Effects
+
+Virtual Cinematography
+
+---
+
+## Software
+
+Maya
+
+Substance 3D Painter
+
+Substance 3D Stager
+
+---
+
+## Skills
+
+3D Modeling
+
+3D Animation
+
+Texturing & Lighting
+
+Character & Prop Setup
+
+Virtual Cinematography
 
 ---
 
@@ -489,31 +517,45 @@ Graduates may pursue careers such as
 
 Graphic Designer
 
-Brand Designer
+UI/UX Designer
 
-Visual Designer
+Digital Content Creator
 
-Digital Designer
-
-Creative Designer
-
-Motion Graphics Artist
+Video Producer
 
 Social Media Designer
 
-Marketing Designer
+Motion Graphics Designer
+
+3D Artist
+
+Multimedia Specialist
+
+Digital Marketing Specialist
+
+Interactive Media Designer
 
 Web Designer
 
-Content Creator
+Brand Identity Designer
 
-Presentation Designer
+Video Editor
 
-Creative Strategist
+Sound Designer
 
-Freelance Designer
+Storyboard Artist
 
-AI Content Designer
+Digital Illustrator
+
+Content Strategist
+
+Digital Production Manager
+
+AI Visualiser
+
+AI Concept Artist
+
+AI Video Editor
 
 ---
 

@@ -6,7 +6,7 @@ Category: UI / UX Design
 
 Slug: uiux-design-pro
 
-Duration: 384 Hours
+Duration: 192 Hours
 
 Learning Pathway:
 
@@ -41,7 +41,7 @@ UI / UX Design
 
 Duration
 
-384 Hours
+192 Hours
 
 Learning Mode
 
@@ -143,43 +143,69 @@ Career Preparation
 
 ---
 
-# TERM I
+# Course Content
 
 ## Topics
 
 Design Principles
 
-Visual Hierarchy
+Principles of Visual Communication
 
-Typography
+Digital Design
 
-Colour Theory
+Vector Illustration
+
+Advanced Graphic Design
 
 Design Thinking
 
-User Psychology
+Principles of User Centric Design
 
-Generative AI for Designers
+Interactive Design
 
-Creative Problem Solving
+AI for Interactive Design
+
+Web Pages - HTML & CSS
+
+Responsive Framework
+
+JavaScript
+
+Content Management System
+
+No Code Design
+
+Concepts of Digital Marketing
+
+Industry Trends and Case Studies
 
 ---
 
 ## Software
 
-Figma
+Photoshop
 
-Adobe Photoshop
-
-Adobe Illustrator
-
-FigJam
-
-ChatGPT
-
-Adobe Firefly
+Illustrator
 
 Miro
+
+Figma
+
+Visily
+
+Uizard
+
+Creatie AI
+
+Webflow
+
+VS Code
+
+Dreamweaver
+
+Bootstrap
+
+WordPress
 
 ---
 
@@ -187,185 +213,43 @@ Miro
 
 Visual Communication
 
-Creative Thinking
-
-Layout Design
-
 Design Thinking
 
-AI Assisted Ideation
-
----
-
-# TERM II
-
-## Topics
-
-User Research
-
-Personas
-
-User Journey Mapping
-
-Information Architecture
-
-Wireframing
-
-Low Fidelity Design
-
-Accessibility
-
-Responsive Design
-
----
-
-## Software
-
-Figma
-
-FigJam
-
-Miro
-
-Notion
-
----
-
-## Skills
-
-Research
-
-UX Planning
-
-Wireframing
-
-Information Architecture
-
-Accessibility
-
----
-
-# TERM III
-
-## Topics
-
-High Fidelity UI Design
-
-Design Systems
-
-Components
-
-Interactive Prototypes
-
-Micro Interactions
-
-Developer Handoff
-
-Portfolio Projects
-
----
-
-## Software
-
-Figma
-
-Adobe Photoshop
-
-Adobe Illustrator
-
-Zeplin
-
----
-
-## Skills
-
-UI Design
-
-Component Libraries
+User Centric Design
 
 Interactive Design
 
-Developer Collaboration
+AI Assisted Design
 
-Portfolio Development
-
----
-
-# TERM IV
-
-## Topics
-
-Responsive Web Design
-
-HTML5 Basics
-
-CSS3 Basics
-
-Bootstrap
-
-Portfolio Website
-
-Professional Case Studies
-
-Interview Preparation
-
-Industry Projects
-
----
-
-## Software
-
-Visual Studio Code
-
-Bootstrap
-
-Chrome DevTools
-
-GitHub
-
----
-
-## Skills
-
-Responsive Design
-
-Developer Communication
-
-Portfolio Publishing
-
-Professional Presentation
-
-Career Readiness
+Responsive Web Development
 
 ---
 
 # Software Covered
 
-Figma
+Photoshop
 
-Adobe Photoshop
-
-Adobe Illustrator
-
-FigJam
+Illustrator
 
 Miro
 
-Notion
+Figma
 
-Zeplin
+Visily
 
-Visual Studio Code
+Uizard
+
+Creatie AI
+
+Webflow
+
+VS Code
+
+Dreamweaver
 
 Bootstrap
 
-HTML5
-
-CSS3
-
-Chrome DevTools
-
-GitHub
+WordPress
 
 ---
 
@@ -469,29 +353,27 @@ AI Assisted Design
 
 Graduates may pursue careers such as
 
-UI Designer
+UI/UX Designer
 
-UX Designer
-
-Product Designer
+Digital Graphic Designer
 
 Interaction Designer
 
-Visual Designer
+Front-end Designer
 
-Design System Designer
-
-UX Researcher
+Visual Communication Specialist
 
 Web Designer
 
 Mobile App Designer
 
-Product Consultant
+Digital Product Designer
 
-Creative Designer
+Brand Experience Designer
 
-Freelance UI/UX Designer
+Content Strategist
+
+Visual Storyteller
 
 ---
 

@@ -6,7 +6,7 @@ Category: Digital Design & Content Creation
 
 Slug: apdmd
 
-Duration: 432 Hours
+Duration: 384 Hours
 
 Learning Pathway:
 
@@ -45,7 +45,7 @@ Digital Design & Content Creation
 
 Duration
 
-432 Hours
+384 Hours
 
 Learning Mode
 
@@ -275,6 +275,16 @@ Bootstrap
 
 WordPress
 
+Adobe XD
+
+Dreamweaver
+
+PHP
+
+MySQL
+
+XAMPP
+
 ---
 
 ## Skills
@@ -288,6 +298,40 @@ Responsive Layout
 Digital Publishing
 
 Portfolio Development
+
+---
+
+# TERM IV
+
+## Topics
+
+Basics of 2D
+
+Digital Storyboarding
+
+Digital 2D Animation
+
+---
+
+## Software
+
+Storyboard Pro
+
+Adobe Animate
+
+Toon Boom Harmony
+
+---
+
+## Skills
+
+2D Animation
+
+Digital Storyboarding
+
+Character Animation
+
+Visual Storytelling for Animation
 
 ---
 
@@ -419,27 +463,35 @@ Graduates may work as
 
 Graphic Designer
 
-Digital Designer
-
-Visual Designer
-
-Brand Designer
-
-Motion Graphics Artist
-
 Web Designer
 
-Social Media Designer
+Communication Designer
 
-Creative Designer
+Illustration Artist
 
-Marketing Designer
+Media Content Manager
 
-Presentation Designer
+Packaging Designer
 
-Freelance Designer
+Page Layout Artist
 
-Content Creator
+Template Designer
+
+User Interface Designer
+
+UX Designer
+
+App Designer
+
+Visualiser
+
+2D Animator
+
+Advertising Art Director
+
+Digital Designer for Interactive E-learning
+
+Digital Storyboard Artist
 
 ---
 
