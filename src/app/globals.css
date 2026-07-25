@@ -119,6 +119,13 @@
   --container-default: 1200px;
   --container-wide: 1440px;
 
+  /* Container horizontal padding per breakpoint (design-tokens.json container.padding) */
+  --spacing-mobile-pad: 20px;
+  --spacing-tablet-pad: 32px;
+  --spacing-laptop-pad: 40px;
+  --spacing-desktop-pad: 48px;
+  --spacing-large-desktop-pad: 64px;
+
   /*
    * Breakpoints — additive to Tailwind's defaults (sm/md/lg/xl/2xl
    * are untouched and still available). These named variants
