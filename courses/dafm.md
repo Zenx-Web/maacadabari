@@ -439,7 +439,7 @@ DAFM, Animation Course, Animation Filmmaking, 3D Animation, MAAC Adabari
 
 Canonical URL
 
-/animation/dafm
+/courses/animation/dafm
 
 ---
 

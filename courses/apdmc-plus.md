@@ -645,7 +645,7 @@ Graphic Design Course, Branding Course, Motion Graphics, Web Design, Digital Med
 
 Canonical URL
 
-/animation/apdmc-plus
+/courses/digital-design/apdmc-plus
 
 ---
 

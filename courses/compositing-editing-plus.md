@@ -495,7 +495,7 @@ Video Editing Course, Compositing Course, Motion Graphics, Premiere Pro, After E
 
 Canonical URL
 
-/animation/compositing-editing-plus
+/courses/vfx/compositing-editing-plus
 
 ---
 

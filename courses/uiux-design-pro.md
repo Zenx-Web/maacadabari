@@ -623,7 +623,7 @@ UI UX Course, Product Design, Figma Course, UX Design, UI Design, MAAC Adabari
 
 Canonical URL
 
-/ courses/uiux/uiux-design-pro
+/courses/uiux/uiux-design-pro
 
 ---
 
