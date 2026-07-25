@@ -17,7 +17,10 @@ export async function generateMetadata({ params }: Props) {
   const course = getCourseBySlug(category, courseSlug);
   if (!course) return {};
   return {
-    title: course.seo.title,
+    // course.seo.title already includes the "| MAAC Adabari" suffix
+    // baked into the content - use `absolute` to bypass the root
+    // layout's title.template, which would otherwise append it again.
+    title: { absolute: course.seo.title },
     description: course.seo.description,
     keywords: course.seo.keywords,
     alternates: { canonical: course.seo.canonicalUrl },
