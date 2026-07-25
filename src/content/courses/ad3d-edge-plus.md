@@ -2,6 +2,7 @@
 slug: "ad3d-edge-plus"
 title: "AD3D EDGE PLUS"
 category: "Animation"
+categorySlug: "animation"
 duration: "602 Hours"
 pathway: ["CareerX", "CreatorX"]
 difficulty: "Advanced"

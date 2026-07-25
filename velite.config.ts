@@ -55,7 +55,8 @@ const internalLinks = s.object({
 
 const courses = s.object({
   title: s.string(),
-  category: s.string(),
+  category: s.string(), // display name, e.g. "Animation" or "Visual Effects (VFX)"
+  categorySlug: s.string(), // join key -> categories.slug, e.g. "animation". Use this for lookups, not `category`.
   slug: s.slug("courses"),
   duration: s.string(),
   pathway: s.array(s.string()).default([]), // e.g. ["CareerX", "CreatorX"] or ["Skill Enhancement"]

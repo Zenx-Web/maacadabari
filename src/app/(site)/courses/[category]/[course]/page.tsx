@@ -7,7 +7,7 @@ type Props = {
 
 export function generateStaticParams() {
   return getAllCourses().map((course) => ({
-    category: course.seo.canonicalUrl.split("/")[2] ?? "",
+    category: course.categorySlug,
     course: course.slug,
   }));
 }

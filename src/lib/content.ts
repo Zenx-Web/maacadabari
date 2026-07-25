@@ -11,15 +11,13 @@ export function getCourseBySlug(
   categorySlug: string,
   courseSlug: string
 ): Course | undefined {
-  const category = getCategoryBySlug(categorySlug);
-  if (!category) return undefined;
   return courses.find(
-    (course) => course.slug === courseSlug && course.category === category.title
+    (course) => course.slug === courseSlug && course.categorySlug === categorySlug
   );
 }
 
-export function getCoursesByCategory(categoryTitle: string): Course[] {
-  return courses.filter((course) => course.category === categoryTitle);
+export function getCoursesByCategorySlug(categorySlug: string): Course[] {
+  return courses.filter((course) => course.categorySlug === categorySlug);
 }
 
 export function getAllCategories(): Category[] {

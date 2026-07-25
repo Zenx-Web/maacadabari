@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import {
   getAllCategories,
   getCategoryBySlug,
-  getCoursesByCategory,
+  getCoursesByCategorySlug,
 } from "@/lib/content";
 
 type Props = {
@@ -26,7 +26,7 @@ export default async function CategoryPage({ params }: Props) {
   const category = getCategoryBySlug(categorySlug);
   if (!category) notFound();
 
-  const courses = getCoursesByCategory(category.title);
+  const courses = getCoursesByCategorySlug(category.slug);
 
   return (
     <main className="flex flex-col">
