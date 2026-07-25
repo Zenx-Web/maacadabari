@@ -34,6 +34,34 @@ This course focuses on creating professional-quality motion graphics, animated p
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Cinema 4D Pro
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Motion Designers
@@ -241,17 +269,53 @@ Skills gained can be applied in:
 
 ---
 
-# CTA
+# FAQ
 
-Bring ideas to life with professional motion graphics.
+## What is this course about?
 
-Master Cinema 4D and build an impressive motion design portfolio with MAAC Adabari.
-
-Apply Today.
+Cinema 4D Pro is a specialized professional course that helps students master Maxon Cinema 4D for motion graphics, broadcast design, advertising, product visualization and digital content creation, using industry-standard workflows to produce motion graphics, animations and cinematic visual effects.
 
 ---
 
-# SEO
+## Who should join this course?
+
+This course is designed for Motion Designers, Graphic Designers, Video Editors, Content Creators, Advertising Professionals, Animation Students, Beginners interested in Motion Graphics, and Freelancers.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required. The course begins with Cinema 4D Fundamentals before progressing into modeling, MoGraph, animation and rendering, and it is designed to include Beginners interested in Motion Graphics alongside Motion Designers, Graphic Designers and Video Editors.
+
+---
+
+## Which software will I learn?
+
+Students learn Maxon Cinema 4D, the Redshift Renderer, and Adobe After Effects integration.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate on completing the course.
+
+---
+
+# CTA
+
+Ready to master this skill?
+
+Primary Button
+
+Book Career Counselling
+
+Secondary Button
+
+Download Brochure
+
+---
+
+# SEO Metadata
 
 Title
 
@@ -272,6 +336,10 @@ Product Animation,
 Redshift,
 Cinema4D,
 MAAC
+
+Canonical URL
+
+/courses/professional/cinema4d-pro
 
 ---
 

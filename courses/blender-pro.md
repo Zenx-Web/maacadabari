@@ -34,6 +34,34 @@ Students gain hands-on experience through practical assignments and production-s
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Blender Pro
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Beginners
@@ -245,17 +273,53 @@ Students build:
 
 ---
 
-# CTA
+# FAQ
 
-Turn your imagination into stunning 3D creations.
+## What is this course about?
 
-Master Blender and build an industry-ready portfolio with MAAC Adabari.
-
-Apply Today.
+Blender Pro teaches students to master Blender, one of the world's most powerful open-source 3D creation suites, covering modeling, sculpting, animation, lighting, rendering and simulations so they can create complete 3D projects from concept to final render while building a professional portfolio.
 
 ---
 
-# SEO
+## Who should join this course?
+
+This course is designed for Beginners, 3D Enthusiasts, Animation Students, Architects, Product Designers, Freelancers, Game Artists, Content Creators and Motion Designers.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required. The course begins with Blender Fundamentals — covering the interface, navigation and scene management — before progressing into modeling, texturing, lighting and animation, and it is open to Beginners as well as experienced 3D Enthusiasts.
+
+---
+
+## Which software will I learn?
+
+Students learn Blender, including Blender Geometry Nodes, Blender Sculpt Mode, the Cycles Renderer and the Eevee Renderer.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate on completing the course.
+
+---
+
+# CTA
+
+Ready to master this skill?
+
+Primary Button
+
+Book Career Counselling
+
+Secondary Button
+
+Download Brochure
+
+---
+
+# SEO Metadata
 
 Title
 
@@ -276,6 +340,10 @@ Geometry Nodes,
 3D Artist,
 MAAC,
 Blender Training
+
+Canonical URL
+
+/courses/professional/blender-pro
 
 ---
 

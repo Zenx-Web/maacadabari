@@ -34,6 +34,34 @@ This course helps students understand professional workflows used by studios and
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Max Pro
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Beginners
@@ -216,17 +244,53 @@ Students build
 
 ---
 
-# CTA
+# FAQ
 
-Create stunning architectural and product visualizations with Autodesk 3ds Max.
+## What is this course about?
 
-Build a professional portfolio and prepare for creative industry opportunities with MAAC Adabari.
-
-Apply Today.
+Max Pro is a professional training program focused on Autodesk 3ds Max, an industry-standard application for architectural visualization, interior design, game asset creation and product visualization, helping students master modeling, lighting, materials and rendering to create realistic 3D projects.
 
 ---
 
-# SEO
+## Who should join this course?
+
+This course is designed for Beginners, Architecture Students, Interior Designers, Product Designers, Game Artists, Visualization Artists, Freelancers and 3D Enthusiasts.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required. The course begins with 3ds Max Fundamentals before progressing into modeling, materials, lighting and rendering, and it welcomes Beginners alongside Architecture Students, Interior Designers and other creative professionals.
+
+---
+
+## Which software will I learn?
+
+Students learn Autodesk 3ds Max and the Arnold Renderer.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate on completing the course.
+
+---
+
+# CTA
+
+Ready to master this skill?
+
+Primary Button
+
+Book Career Counselling
+
+Secondary Button
+
+Download Brochure
+
+---
+
+# SEO Metadata
 
 Title
 
@@ -247,6 +311,10 @@ Rendering,
 Visualization Course,
 MAAC,
 Max Pro
+
+Canonical URL
+
+/courses/professional/max-pro
 
 ---
 

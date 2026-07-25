@@ -32,6 +32,34 @@ This course introduces students to the complete 3D production pipeline through p
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Maya Pro
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Beginners
@@ -229,17 +257,53 @@ Students build:
 
 ---
 
-# CTA
+# FAQ
 
-Transform your creativity into professional 3D productions.
+## What is this course about?
 
-Master Autodesk Maya with MAAC Adabari and prepare for a career in animation, VFX and gaming.
-
-Apply Today.
+Maya Pro is a professional training program focused on Autodesk Maya, the industry standard for creating characters, environments and cinematic animations, introducing students to the complete 3D production pipeline — modeling, texturing, rigging, animation, lighting and rendering — through practical projects and hands-on learning.
 
 ---
 
-# SEO
+## Who should join this course?
+
+This course is designed for Beginners, Animation Students, Game Artists, VFX Artists, Architects, Product Designers, Freelancers and 3D Enthusiasts.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required. The course begins with Maya Fundamentals before progressing into modeling, texturing, rigging, animation and rendering, and it welcomes Beginners alongside Animation Students, Game Artists and VFX Artists.
+
+---
+
+## Which software will I learn?
+
+Students learn Autodesk Maya and the Arnold Renderer.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate on completing the course.
+
+---
+
+# CTA
+
+Ready to master this skill?
+
+Primary Button
+
+Book Career Counselling
+
+Secondary Button
+
+Download Brochure
+
+---
+
+# SEO Metadata
 
 Title
 
@@ -260,6 +324,10 @@ Rendering,
 Animation Course,
 MAAC,
 Maya Training
+
+Canonical URL
+
+/courses/professional/maya-pro
 
 ---
 
