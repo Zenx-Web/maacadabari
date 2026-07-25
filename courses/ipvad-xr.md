@@ -39,6 +39,38 @@ Graduates leave with an extensive portfolio and real-world production experience
 
 ---
 
+# Quick Facts
+
+Course Name
+
+International Program in Visual Arts, Design & XR (IPVAD-XR)
+
+Category
+
+International Programs
+
+Duration
+
+3 Years / 864 Hours
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Career Program
+
+Availability
+
+Available at Selected MAAC Centers
+
+---
+
 # Who Is This Course For?
 
 - Students after Class 12
@@ -243,6 +275,29 @@ Build immersive experiences using modern production pipelines.
 
 ---
 
+# CareerX
+
+- Studio Production Pipeline
+- Unreal Engine Workflow
+- AI-Assisted Production
+- Virtual Production
+- Industry Projects
+- Portfolio Development
+- Industry-standard Software
+
+---
+
+# CreatorX
+
+- Creator Economy
+- Freelance Creator
+- Creative Entrepreneur
+- Entrepreneurial Mindset
+- Personal Branding
+- Entrepreneurship
+
+---
+
 # Career Opportunities
 
 Graduates can become
@@ -314,6 +369,76 @@ Graduates work across
 
 ---
 
+# Student Journey
+
+Admission
+
+↓
+
+Learning
+
+↓
+
+Projects
+
+↓
+
+Portfolio
+
+↓
+
+Interview Preparation
+
+↓
+
+Placement
+
+---
+
+# FAQ
+
+## What is this course about?
+
+IPVAD-XR is MAAC's most comprehensive career program, combining Digital Design, Video Production, 3D Content Creation, Visual Effects, XR Technologies and AI-powered creative workflows, and prepares students for studio careers, freelancing and entrepreneurship across the AVGC-XR industry.
+
+---
+
+## Who should join this course?
+
+This course is designed for Students after Class 12, Graduates, Creative Professionals, Designers, Aspiring VFX Artists, Future Game Artists, XR Creators, Digital Filmmakers, Content Creators and Entrepreneurs.
+
+---
+
+## Do I need prior experience?
+
+The program is open to students after Class 12 and graduates. Year 1 begins with Digital Design & Video Production, where "students begin with strong creative fundamentals," so no prior experience is required.
+
+---
+
+## Which software will I learn?
+
+Students learn Adobe Creative Cloud tools (Photoshop, Illustrator, InDesign, Express, Premiere Pro, After Effects, Audition, Lightroom), Autodesk Maya and 3ds Max, Substance 3D Painter, ZBrush, Houdini, Marvelous Designer, Nuke, DaVinci Resolve, SilhouetteFX, 3DEqualizer and Unreal Engine.
+
+---
+
+## Does this course include AI?
+
+Yes. Year 3 includes AI-Assisted Production, the Software Covered list includes Industry-standard Generative AI Tools, and Skills You'll Learn includes AI-assisted Content Creation.
+
+---
+
+## What careers can I pursue?
+
+Graduates can become Digital Designer, Video Producer, Video Editor, Motion Graphics Artist, 3D Artist, 3D Generalist, XR Content Creator, Unreal Engine Artist, Game Visual Designer, VFX Artist, Compositing Artist, AI Content Creator, Freelance Creator or Creative Entrepreneur.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate on completion of the program.
+
+---
+
 # CTA
 
 Become the next generation of creative professional.
@@ -324,7 +449,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -346,6 +471,10 @@ Animation,
 Graphic Design,
 Creative Technology,
 MAAC
+
+Canonical URL
+
+/courses/international/ipvad-xr
 
 ---
 

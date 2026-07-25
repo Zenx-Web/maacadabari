@@ -34,6 +34,38 @@ Students graduate with a strong portfolio showcasing high-quality assets built u
 
 ---
 
+# Quick Facts
+
+Course Name
+
+3D Game Art & Integration (3DGAI)
+
+Category
+
+Game Design
+
+Duration
+
+296 Hours
+
+Difficulty
+
+Not stated in course content
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Professional Program
+
+---
+
 # Who Is This Course For?
 
 - Aspiring Game Artists
@@ -262,6 +294,76 @@ Skills gained in this program are used in:
 
 ---
 
+# Student Journey
+
+Admission
+
+↓
+
+Learning
+
+↓
+
+Projects
+
+↓
+
+Portfolio
+
+↓
+
+Interview Preparation
+
+↓
+
+Placement
+
+---
+
+# FAQ
+
+## What is this course about?
+
+3D Game Art & Integration (3DGAI) is an intensive one-year program covering the complete game art pipeline—from concept and asset creation to advanced texturing, animation, AI-powered workflows, and Unreal Engine integration for PC, console and next-generation interactive experiences.
+
+---
+
+## Who should join this course?
+
+This course is designed for Aspiring Game Artists, 3D Artists, Character Artists, Environment Artists, Technical Artists, Unreal Engine Artists, Students interested in Game Art, Beginners passionate about Gaming, and Digital Artists looking to enter the Game Industry.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required. Term I—Foundation of 3D Game Art—starts with fundamentals such as Visual Design for Games, Digital Design, Game Art Fundamentals and an Introduction to Maya, making the course suitable for beginners passionate about gaming.
+
+---
+
+## Which software will I learn?
+
+Students learn Adobe Photoshop, Autodesk Maya, ZBrush, Marvelous Designer, Substance 3D Painter, Substance 3D Designer, Substance 3D Sampler, Unreal Engine, RealityCapture and Meshy AI.
+
+---
+
+## Does this course include AI?
+
+Yes. The course covers Generative AI for Digital Creators and a 3D Generative AI Workflow using tools such as ChatGPT, DeepSeek, Leonardo AI, Midjourney, Adobe Firefly, Canva AI Tools and Meshy AI.
+
+---
+
+## What careers can I pursue?
+
+Graduates can pursue roles such as 3D Modeler, 3D Artist, Texture Artist, Material Artist, Technical Artist, Character Artist, Environment Artist, UI/UX Designer for Games, Lighting Artist, Cloth & FX Artist, Generative AI Artist, Game Engine Artist, 3D Generalist and Game Concept Artist.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate on completion of the program.
+
+---
+
 # CTA
 
 Build the worlds players explore.
@@ -272,7 +374,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -294,6 +396,10 @@ Game Design,
 3DGAI,
 Game Assets,
 MAAC
+
+Canonical URL
+
+/courses/game-design/3dgai
 
 ---
 

@@ -37,6 +37,38 @@ Throughout the course, learners work with industry-standard tools while developi
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Advanced Program in Game Design & Integration (APGDI)
+
+Category
+
+Game Design
+
+Duration
+
+480 Hours
+
+Difficulty
+
+{{BEGINNER | INTERMEDIATE | ADVANCED}} (not specified in source content)
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathways
+
+Career Program
+
+---
+
 # Who Is This Course For?
 
 - Students passionate about games
@@ -291,6 +323,76 @@ Students may build
 
 ---
 
+# Student Journey
+
+Admission
+
+↓
+
+Learning
+
+↓
+
+Projects
+
+↓
+
+Portfolio
+
+↓
+
+Interview Preparation
+
+↓
+
+Placement
+
+---
+
+# FAQ
+
+## What is this course about?
+
+APGDI is MAAC's comprehensive game development program that prepares students for careers in mobile, PC, console, AR, and VR game development, covering everything from concept art and game assets to AAA environments and real-time engines.
+
+---
+
+## Who should join this course?
+
+This course is designed for students passionate about games, future Game Artists, Level Designers, Environment Artists, 3D Artists, Technical Artists, Character Artists, students interested in AR/VR, and beginners seeking a career in Game Design.
+
+---
+
+## Do I need prior experience?
+
+No. Term I starts with Game Art & Design Fundamentals, including Digital Design, Vector Illustrations for Games, Sound Editing, and 3D Design, so the course is built to take beginners through the fundamentals before progressing to advanced topics.
+
+---
+
+## Which software will I learn?
+
+You will work with Adobe Photoshop, Adobe Illustrator, Adobe Audition, Autodesk 3ds Max, Autodesk Maya, Substance 3D Painter, Quixel Mixer, Motion Builder, ZBrush, Unity, and Unreal Engine.
+
+---
+
+## Does this course include AI?
+
+No AI tools are included in this course's curriculum as documented.
+
+---
+
+## What careers can I pursue?
+
+Graduates can pursue roles such as Game Asset Development Artist, Game Artist, Game Environment Designer, Character Modeler, Game Animator, Game UI/UX Designer, Asset Integration Artist, Game Level Designer, Technical Artist, Game Designer, Concept Artist, and Pre-Visualization Artist.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate upon completion of the program.
+
+---
+
 # CTA
 
 Start building the games of tomorrow.
@@ -301,7 +403,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -322,6 +424,10 @@ Level Design,
 AAA Games,
 Mobile Games,
 MAAC APGDI
+
+Canonical URL
+
+/courses/game-design/apgdi
 
 ---
 

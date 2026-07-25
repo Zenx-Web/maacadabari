@@ -34,6 +34,38 @@ Students develop professional-quality game assets and playable mobile games whil
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Program in Mobile Game Design & Integration (PMGDI)
+
+Category
+
+Game Design
+
+Duration
+
+388 Hours
+
+Difficulty
+
+{{BEGINNER | INTERMEDIATE | ADVANCED}} (not specified in source content)
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathways
+
+Professional Program
+
+---
+
 # Who Is This Course For?
 
 - Aspiring Mobile Game Designers
@@ -278,6 +310,76 @@ Game Design skills are used in:
 
 ---
 
+# Student Journey
+
+Admission
+
+↓
+
+Learning
+
+↓
+
+Projects
+
+↓
+
+Portfolio
+
+↓
+
+Interview Preparation
+
+↓
+
+Placement
+
+---
+
+# FAQ
+
+## What is this course about?
+
+PMGDI prepares students to build immersive mobile gaming experiences through game art, asset creation, real-time game engines, and mobile game development workflows, learning to create engaging 2D and 3D games for Android, iOS, and cross-platform development.
+
+---
+
+## Who should join this course?
+
+This course is designed for aspiring Mobile Game Designers, Game Artists, 3D Artists, Character Artists, Environment Artists, Technical Artists, students interested in AR & VR, beginners passionate about Game Development, and creative students looking for careers in gaming.
+
+---
+
+## Do I need prior experience?
+
+No. Term I begins with Game Art & Design Fundamentals, covering Digital Design, Vector Illustrations for Games, Sound Editing, 3D Design, and Introduction to Texturing, so the course is structured to build up from foundational skills.
+
+---
+
+## Which software will I learn?
+
+You will work with Adobe Photoshop, Adobe Illustrator, Adobe Audition, Autodesk 3ds Max, Autodesk Maya, Substance 3D Painter, Quixel Mixer, Motion Builder, ZBrush, Unity, and Unreal Engine.
+
+---
+
+## Does this course include AI?
+
+No AI tools are included in this course's curriculum as documented.
+
+---
+
+## What careers can I pursue?
+
+Graduates can pursue careers such as 2D Mobile Game Artist, 3D Mobile Game Artist (Modeling & Texturing), Game Environment Artist, Game Animator, Game Rigging Artist, Mobile Game Developer, Mobile Game Designer, Concept Artist, Mobile Game Environment Artist, Mobile Game UI/UX Designer, Technical Artist, Game Designer, Mobile Game Level Designer, Look Development Artist, and Pre-Visualization Artist. These skills also apply to Android Games, iOS Games, Cross-platform Games, AR Applications, VR Experiences, Serious Games, Interactive Simulations, EdTech, Entertainment, and Gamified Applications.
+
+---
+
+## What certificate will I receive?
+
+Students receive a MAAC Certificate upon completion of the program.
+
+---
+
 # CTA
 
 Turn your passion for gaming into a professional career.
@@ -288,7 +390,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -310,6 +412,10 @@ AR VR,
 Game Development,
 PMGDI,
 MAAC
+
+Canonical URL
+
+/courses/game-design/pmgdi
 
 ---
 
