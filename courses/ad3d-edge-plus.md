@@ -27,6 +27,40 @@ Students learn both traditional production techniques and AI-assisted creative w
 
 ---
 
+# Quick Facts
+
+Course Name
+
+AD3D EDGE PLUS
+
+Category
+
+Animation
+
+Duration
+
+602 Hours
+
+Difficulty
+
+Advanced
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathways
+
+CareerX
+
+CreatorX
+
+---
+
 # Best For
 
 This course is suitable for students who want to become:
@@ -595,42 +629,120 @@ Professional Showreel
 
 ---
 
-# Recommended Page Sections
+# Student Journey
 
-Hero
+Admission
 
-Course Highlights
+↓
 
-Who Should Join
+Learning
 
-Learning Journey
+↓
 
-Term Wise Curriculum
+Projects
 
-Software
+↓
 
-AI Tools
+Portfolio
 
-CareerX
+↓
 
-CreatorX
+Interview Preparation
 
-Elective Specializations
+↓
 
-Career Opportunities
-
-Portfolio Projects
-
-FAQ
-
-Book Career Counselling
+Placement
 
 ---
 
-# Related Courses
+# FAQ
+
+## What is this course about?
+
+AD3D EDGE PLUS is MAAC's flagship animation program covering 3D Animation, Game Art, Visualization and AI-powered content creation, combining creative fundamentals, production workflows and portfolio development.
+
+---
+
+## Who should join this course?
+
+Students aiming to become a 3D Animator, Character Artist, Environment Artist, Game Artist, Lighting Artist, Visualization Artist, AI Concept Artist, AI Visualizer or AI Digital Designer.
+
+---
+
+## Do I need prior experience?
+
+No. The course begins with creative and visual design fundamentals in Term I before progressing into 3D production, advanced production and real-time production in Terms II-IV.
+
+---
+
+## Which software will I learn?
+
+Across the four terms and elective specializations, students learn Adobe Photoshop, Premiere Pro, Audition and After Effects, Autodesk 3ds Max and Maya, V-Ray, Arnold, Adobe Substance 3D Painter, Marvelous Designer, Substance 3D Stager and Sampler, Quixel Mixer, Unreal Engine, ZBrush, Redshift, Katana, MotionBuilder and SketchUp, depending on the chosen elective.
+
+---
+
+## Does this course include AI?
+
+Yes. Students use Generative AI throughout the learning journey, including ChatGPT, DeepSeek, Leonardo AI, Midjourney, Sora, Runway ML, ElevenLabs, Suno AI, ComfyUI, Adobe Firefly and Canva AI Tools for image, video and audio generation, ideation and workflow acceleration.
+
+---
+
+## What careers can I pursue?
+
+Graduates may pursue roles such as 3D Modeling Artist, Texturing Artist, Lighting Artist, 3D Animator, Rigging Artist, 3D Generalist, Game Asset Artist, Environment Artist, Look Development Artist, AI Content Strategist, AI Visualizer, AI Concept Artist and AI Digital Designer.
+
+---
+
+## What certificate will I receive?
+
+A MAAC Certificate on successful completion of the program.
+
+---
+
+# CTA
+
+Ready to start your creative career?
+
+Primary Button
+
+Book Career Counselling
+
+Secondary Button
+
+Download Brochure
+
+---
+
+# SEO Metadata
+
+Title
+
+AD3D EDGE PLUS | Advanced 3D Animation & AI Program | MAAC Adabari
+
+Description
+
+Learn 3D Animation, Game Art, Visualization and AI-powered content creation with MAAC Adabari's flagship AD3D EDGE PLUS program - CareerX, CreatorX and elective specializations included.
+
+Keywords
+
+AD3D EDGE PLUS, 3D Animation Course, Game Art Course, AI Animation, MAAC Adabari, CareerX, CreatorX
+
+Canonical URL
+
+/courses/animation/ad3d-edge-plus
+
+---
+
+# Internal Links
+
+Related Courses
 
 3D & Real-Time Design Plus
 
 D3D
 
 DAFM
+
+Related Category
+
+Animation
