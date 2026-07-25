@@ -61,9 +61,7 @@ export default async function CoursePage({ params }: Props) {
                 <p className="text-caption uppercase tracking-buttons text-text-muted">
                   {label}
                 </p>
-                <p className="text-body-sm text-text-primary mt-1">
-                  {value}
-                </p>
+                <p className="text-body-sm text-text-primary mt-1">{value}</p>
               </div>
             ))}
           </div>
