@@ -1,5 +1,17 @@
 # UI / UX Design
 
+Slug:
+/courses/uiux
+
+Navigation Label:
+UI / UX Design
+
+Category Order:
+4
+
+Icon:
+LayoutGrid
+
 Version: 2026
 
 ---

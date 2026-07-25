@@ -1,5 +1,17 @@
 # Digital Design & Content Creation
 
+Slug:
+/courses/digital-design
+
+Navigation Label:
+Digital Design
+
+Category Order:
+3
+
+Icon:
+PenTool
+
 Version: 2026
 
 ---

@@ -1,5 +1,17 @@
 # Visual Effects (VFX)
 
+Slug:
+/courses/vfx
+
+Navigation Label:
+Visual Effects
+
+Category Order:
+2
+
+Icon:
+Sparkles
+
 Version: 2026
 
 ---

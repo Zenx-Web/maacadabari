@@ -7,72 +7,155 @@ Navigation Label:
 Game Design
 
 Category Order:
-4
+5
 
 Icon:
-Gamepad
+Gamepad2
 
 Hero Theme:
 Futuristic • Interactive • Real-time • Creative Technology
+
+Version: 2026
+
+---
+
+# Purpose
+
+This page introduces visitors to the world of Game Design.
+
+Its goal is to explain what Game Design is, where it is used, the careers available in the industry, and the professional Game Design courses offered by MAAC Adabari.
+
+This page should inspire students to explore Game Design while helping them choose the most suitable course.
+
+Do not display the complete syllabus or curriculum here.
+
+Each course should have its own dedicated page.
+
+---
+
+# Page Structure
+
+Hero
+
+↓
+
+What is Game Design?
+
+↓
+
+Game Development Pipeline
+
+↓
+
+Why Choose Game Design?
+
+↓
+
+Industry Overview
+
+↓
+
+Career Opportunities
+
+↓
+
+Available Courses
+
+↓
+
+Software & AI Ecosystem
+
+↓
+
+AI Integration
+
+↓
+
+Student Portfolio
+
+↓
+
+Frequently Asked Questions
+
+↓
+
+Book Career Counselling
 
 ---
 
 # Hero
 
-## Build Worlds.
-### Design Experiences.
-#### Create Games That Millions Play.
+Title
+
+Build Worlds.
+
+Design Experiences.
+
+Create Games That Millions Play.
+
+Subtitle
 
 Game Design is where creativity meets technology. Every great game begins with an idea and grows through storytelling, world building, character design, level creation, gameplay mechanics, and real-time interaction.
 
 At MAAC Adabari, students learn to create immersive gaming experiences using industry-standard tools like Unity, Unreal Engine, Maya, ZBrush, and Substance 3D Painter. Whether you dream of developing mobile games, AAA titles, or immersive AR/VR experiences, our Game Design programs prepare you for the next generation of interactive entertainment.
 
----
+Primary CTA
 
-# Overview
+Explore Game Design Courses
 
-The global gaming industry is one of the fastest-growing creative sectors.
+Secondary CTA
 
-Modern games require artists, designers, technical specialists, animators, environment creators, UI designers, and real-time developers working together to build engaging experiences.
-
-MAAC's Game Design curriculum follows professional production workflows, helping students understand every stage of game development—from concept art to playable experiences.
+Book Career Counselling
 
 ---
 
-# Why Choose Game Design?
+# What is Game Design?
 
-Students learn:
+Game Design is the craft of building interactive worlds, characters and gameplay systems that players can explore and control in real time.
 
-- Game Art Fundamentals
-- Character Design
-- Environment Design
-- 3D Asset Creation
-- Level Design
-- Game Engines
-- Realtime Rendering
-- Mobile Game Development
-- AAA Production Pipeline
-- UI/UX for Games
-- AR & VR Foundations
-- Portfolio Development
+It combines art, storytelling and technology — artists, designers, technical specialists, animators, environment creators, UI designers, and real-time developers all work together to build engaging experiences.
+
+Game Design is used in
+
+• PC Games
+
+• Console Games
+
+• Mobile Games
+
+• AR Experiences
+
+• VR Experiences
+
+• Simulation
+
+• Architecture Visualization
+
+• Interactive Training
+
+• Virtual Production
+
+• Metaverse Applications
 
 ---
 
-# Learning Journey
+# Game Development Pipeline
 
-Creative Fundamentals
+A typical game project follows a structured production pipeline.
 
-↓
-
-Game Art
+Concept & Pre-Production
 
 ↓
 
-3D Asset Creation
+Game Design Documentation
 
 ↓
 
-Game Engines
+Art & Asset Creation
+
+↓
+
+3D Modeling & Texturing
 
 ↓
 
@@ -80,44 +163,65 @@ Level Design
 
 ↓
 
-Gameplay Development
+Game Engine Integration
 
 ↓
 
-Professional Portfolio
+Gameplay & Systems Development
 
 ↓
 
-Industry Ready
+Testing & Playtesting
+
+↓
+
+Polish & Optimization
+
+↓
+
+Launch
+
+Every discipline works together to create the final playable experience.
 
 ---
 
-# Software You'll Learn
+# Why Choose Game Design?
 
-## Digital Art
+Students learn:
 
-- Adobe Photoshop
-- Adobe Illustrator
+Game Art Fundamentals
 
-## 3D
+Character Design
 
-- Autodesk Maya
-- Autodesk 3ds Max
-- ZBrush
+Environment Design
 
-## Texturing
+3D Asset Creation
 
-- Substance 3D Painter
-- Quixel Mixer
+Level Design
 
-## Animation
+Game Engines
 
-- Motion Builder
+Realtime Rendering
 
-## Game Engines
+Mobile Game Development
 
-- Unity
-- Unreal Engine
+AAA Production Pipeline
+
+UI/UX for Games
+
+AR & VR Foundations
+
+Portfolio Development
+
+---
+
+# Industry Overview
+
+The global gaming industry is one of the fastest-growing creative sectors.
+
+Modern games require artists, designers, technical specialists, animators, environment creators, UI designers, and real-time developers working together to build engaging experiences.
+
+MAAC's Game Design curriculum follows professional production workflows, helping students understand every stage of game development — from concept art to playable experiences.
 
 ---
 
@@ -125,55 +229,141 @@ Industry Ready
 
 Graduates can pursue careers as:
 
-- Game Designer
-- Game Artist
-- Character Artist
-- Environment Artist
-- Level Designer
-- Technical Artist
-- Game UI/UX Designer
-- Asset Integration Artist
-- Game Animator
-- 3D Game Modeler
-- Concept Artist
-- Pre-Visualization Artist
+Game Designer
+
+Game Artist
+
+Character Artist
+
+Environment Artist
+
+Level Designer
+
+Technical Artist
+
+Game UI/UX Designer
+
+Asset Integration Artist
+
+Game Animator
+
+3D Game Modeler
+
+Concept Artist
+
+Pre-Visualization Artist
+
+Career opportunities differ by course.
+
+Each individual course page provides its own detailed career list.
 
 ---
 
-# Current Course
+# Available Courses
 
-## Advanced Program in Game Design & Integration (APGDI)
+The following Game Design programs are offered at MAAC Adabari.
+
+--------------------------------
+
+Advanced Program in Game Design & Integration (APGDI)
 
 Duration
 
 480 Hours
 
-Highlights
+Description
 
-- Unity
-- Unreal Engine
-- AAA Game Development
-- Mobile Game Development
-- Game Asset Creation
-- Real-time Production
-- Portfolio Development
+MAAC's comprehensive game development program covering mobile, PC, console, AR and VR game development with Unity, Unreal Engine and AAA production workflows.
+
+Button
+
+View Course
+
+--------------------------------
+
+Program in Mobile Game Design & Integration (PMGDI)
+
+Duration
+
+388 Hours
+
+Description
+
+Professional program focused on mobile game art, asset creation and real-time engine integration for Android, iOS and cross-platform development.
+
+Button
+
+View Course
+
+--------------------------------
+
+3D Game Art & Integration (3DGAI)
+
+Duration
+
+296 Hours
+
+Description
+
+Intensive program covering the complete game art pipeline, from concept and asset creation to AI-powered workflows and Unreal Engine integration.
+
+Button
+
+View Course
 
 ---
 
-# Industry Applications
+# Software & AI Ecosystem
 
-Game Design skills are used in:
+Students across Game Design programs learn professional software such as
 
-- PC Games
-- Console Games
-- Mobile Games
-- AR Experiences
-- VR Experiences
-- Simulation
-- Architecture Visualization
-- Interactive Training
-- Virtual Production
-- Metaverse Applications
+Adobe Photoshop
+
+Adobe Illustrator
+
+Autodesk Maya
+
+Autodesk 3ds Max
+
+ZBrush
+
+Substance 3D Painter
+
+Quixel Mixer
+
+Marvelous Designer
+
+Motion Builder
+
+Unity
+
+Unreal Engine
+
+The exact software depends on the selected course.
+
+Refer to individual course pages for complete software details.
+
+---
+
+# AI Integration
+
+Modern game production increasingly incorporates Artificial Intelligence.
+
+Students may work with AI-powered tools for
+
+Concept Development
+
+Image Generation
+
+3D Asset Generation
+
+Reference Creation
+
+Creative Brainstorming
+
+Workflow Automation
+
+The AI tools introduced vary by course.
 
 ---
 
@@ -181,73 +371,72 @@ Game Design skills are used in:
 
 Students create projects such as:
 
-- Playable Game Levels
-- Mobile Games
-- AAA Environments
-- Character Models
-- Stylized Assets
-- Realistic Assets
-- Interactive Prototypes
-- UI Systems
-- Game Worlds
+Playable Game Levels
+
+Mobile Games
+
+AAA Environments
+
+Character Models
+
+Stylized Assets
+
+Realistic Assets
+
+Interactive Prototypes
+
+UI Systems
+
+Game Worlds
+
+Each project should open a detailed preview where available.
 
 ---
 
-# Why Study at MAAC Adabari?
+# Frequently Asked Questions
 
-- Industry-focused curriculum
-- Experienced mentors
-- Modern software ecosystem
-- Portfolio-based learning
-- Project-driven approach
-- Career guidance
-- Placement assistance*
-- Exposure to real production workflows
+What is Game Design?
+
+What is the difference between APGDI, PMGDI and 3DGAI?
+
+Do I need drawing or art skills to join?
+
+Will I learn Unity and Unreal Engine?
+
+Can I join after Class 12?
+
+Do Game Design courses include AI tools?
+
+Which Game Design course should I choose?
 
 ---
 
-# CTA
+# Call To Action
 
 Ready to create the next generation of games?
 
-Explore our Game Design programs and begin building immersive worlds today.
+Explore our Game Design programs or book a free career counselling session with our academic advisors.
+
+Primary Button
+
+Explore Game Design Courses
+
+Secondary Button
+
+Book Career Counselling
 
 ---
 
-# SEO
+# Development Notes
 
-Title
+This page introduces the Game Design category.
 
-Game Design Courses | MAAC Adabari
+Do not place complete curriculum here.
 
-Meta Description
+Do not display the complete software breakdown.
 
-Learn Game Design, Unity, Unreal Engine, Level Design, Character Art, Environment Design, and AAA Game Development with MAAC Adabari.
+Do not display term-wise syllabus.
 
-Keywords
+Detailed information belongs to the individual course pages.
 
-Game Design Course,
-Unity Course,
-Unreal Engine,
-Game Development,
-Game Art,
-Level Design,
-Mobile Game Development,
-AAA Games,
-MAAC Game Design
-
----
-
-# Internal Links
-
-APGDI
-
-Animation
-
-VFX
-
-Digital Design
-
-Admissions
-
-Contact
+This page should encourage users to choose one of the available Game Design courses.
