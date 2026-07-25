@@ -1,0 +1,193 @@
+{
+  "$schema": "Source of truth for MAAC Adabari design tokens. Consolidates design-system/*.md after Phase 0 reconciliation fixes (container widths, spacing-scale, card color, contrast). Feeds tailwind.config.ts theme.extend. Do not hand-edit tailwind.config.ts values that originate here without updating this file first.",
+  "color": {
+    "brand": {
+      "red": "#E53935",
+      "redHover": "#F44336"
+    },
+    "neutral": {
+      "black": "#000000",
+      "white": "#FFFFFF",
+      "background1": "#050505",
+      "background2": "#0B0B0B",
+      "background3": "#121212",
+      "surface": "#111111",
+      "border": "rgba(255,255,255,0.08)"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "rgba(255,255,255,0.72)",
+      "muted": "rgba(255,255,255,0.60)",
+      "disabled": "rgba(255,255,255,0.30)",
+      "inverse": "#000000"
+    },
+    "accent": {
+      "success": "#2ECC71",
+      "warning": "#F5B041",
+      "error": "#E74C3C",
+      "info": "#3498DB"
+    },
+    "glow": {
+      "primary": "rgba(229,57,53,0.45)",
+      "white": "rgba(255,255,255,0.18)",
+      "softShadow": "rgba(0,0,0,0.45)"
+    },
+    "gradient": {
+      "primary": ["#E53935", "#FF6B6B"],
+      "dark": ["#050505", "#151515"],
+      "glass": ["rgba(255,255,255,0.12)", "rgba(255,255,255,0.02)"]
+    },
+    "_notes": {
+      "surface": "Canonical #111111. design-system/01-colors.md's Neutral Palette->Surface previously said #1A1A1A, conflicting with the same file's Component Colors->Cards and Tailwind Tokens->Surface (both #111111) — #111111 wins, doc fixed to match.",
+      "text.muted": "Raised 0.50 -> 0.60 for WCAG AA contrast (was borderline ~4.5:1 on the #111111 card surface; now ~6.8:1 everywhere).",
+      "text.disabled": "0.30 fails 4.5:1 (~2.53:1 on #050505). Documented, scoped WCAG 2.2 SC 1.4.3 exemption — apply ONLY to elements with a native disabled attribute or aria-disabled=\"true\", never to merely de-emphasized interactive text. See design-system/12-accessibility.md."
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Geist",
+      "secondary": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "scale": {
+      "displayXl": { "min": "72px", "max": "96px", "weight": 700 },
+      "displayLarge": { "min": "56px", "max": "72px", "weight": 700 },
+      "h1": { "min": "48px", "max": "64px", "weight": 700 },
+      "h2": { "min": "36px", "max": "48px", "weight": 700 },
+      "h3": { "min": "30px", "max": "36px", "weight": 600 },
+      "h4": { "min": "24px", "max": "30px", "weight": 600 },
+      "h5": { "min": "20px", "max": "24px", "weight": 600 },
+      "h6": { "min": "18px", "max": "20px", "weight": 600 },
+      "bodyLarge": { "size": "20px", "weight": 400, "lineHeight": 1.8 },
+      "body": { "size": "18px", "weight": 400, "lineHeight": 1.8 },
+      "bodySmall": { "size": "16px", "weight": 400, "lineHeight": 1.7 },
+      "caption": { "size": "14px", "weight": 500 }
+    },
+    "letterSpacing": {
+      "display": "-0.04em",
+      "headings": "-0.03em",
+      "body": "0",
+      "buttons": "0.02em"
+    },
+    "_notes": {
+      "scale": "min/max pairs are fluid type — implement with CSS clamp() in Tailwind config, not static text-{size} utility classes. design-system/02-typography.md's own 'Tailwind Tokens' table maps each heading to one static class, which loses the fluid range entirely; that table is retained in the doc as a rough reference only, not as implementation guidance."
+    }
+  },
+  "spacing": {
+    "scale": {
+      "xs": "8px",
+      "sm": "16px",
+      "md": "24px",
+      "lg": "32px",
+      "xl": "48px",
+      "2xl": "64px",
+      "3xl": "96px",
+      "4xl": "128px"
+    },
+    "_notes": {
+      "scale": "Map these into tailwind.config.ts theme.extend.spacing under these exact names (xs/sm/md/lg/xl/2xl/3xl/4xl). Do NOT rely on Tailwind's bare numeric spacing utilities (p-32, gap-16, etc.) — design-system/03-spacing.md previously documented a numeric-alias table that was exactly half of Tailwind's real default scale (e.g. claimed space-32=64px; real Tailwind space-32=128px). Named tokens make that bug structurally impossible."
+    }
+  },
+  "container": {
+    "reading": "768px",
+    "default": "1200px",
+    "wide": "1440px",
+    "padding": {
+      "mobile": "20px",
+      "tablet": "32px",
+      "laptop": "40px",
+      "desktop": "48px",
+      "largeDesktop": "64px"
+    },
+    "_notes": {
+      "general": "Exactly 3 containers site-wide, per design-system/04-layout-grid.md (canonical). Previously design-system/03-spacing.md and design-system/13-responsive.md each defined extra, conflicting tiers (1024px/1280px) that existed nowhere else — removed. Breakpoint->container mapping: mobile/tablet=fluid 100%; laptop/desktop=default(1200px); largeDesktop=wide(1440px). Only padding varies across laptop vs desktop."
+    }
+  },
+  "grid": {
+    "structural": {
+      "desktop": { "columns": 12, "gap": "32px" },
+      "tablet": { "columns": 8, "gap": "24px" },
+      "mobile": { "columns": 4, "gap": "16px" }
+    },
+    "content": {
+      "mobile": 1,
+      "tablet": 2,
+      "laptop": 3,
+      "desktop": 4,
+      "max": 4
+    },
+    "_notes": {
+      "content": "Content-grid columns (cards/features per row) are a distinct concept from the structural 12/8/4-column grid above — a 4-column content grid is 4 equal spans within the 12-column structural grid, not a contradiction. See design-system/13-responsive.md -> Grid Rules."
+    }
+  },
+  "breakpoint": {
+    "mobileSmall": "320px",
+    "mobile": "480px",
+    "tablet": "640px",
+    "laptop": "1024px",
+    "desktop": "1280px",
+    "largeDesktop": "1536px"
+  },
+  "radius": {
+    "card": {
+      "default": "24px",
+      "largeFeature": "32px",
+      "small": "20px",
+      "icon": "16px"
+    },
+    "button": {
+      "default": "16px",
+      "pill": "999px"
+    }
+  },
+  "shadow": {
+    "small": "0 4px 12px rgba(0,0,0,0.20)",
+    "medium": "0 10px 30px rgba(0,0,0,0.28)",
+    "large": "0 24px 60px rgba(0,0,0,0.35)"
+  },
+  "blur": {
+    "values": ["8px", "12px", "20px", "24px"],
+    "navBackdrop": "20px"
+  },
+  "motion": {
+    "duration": {
+      "microInteraction": "120-180ms",
+      "defaultUi": "200-300ms",
+      "sectionReveal": "500-700ms",
+      "heroSequence": "1000-1500ms",
+      "pageTransition": "600-800ms",
+      "cardHover": "220ms",
+      "buttonDefault": "220ms"
+    },
+    "easing": {
+      "preferred": ["power2.out", "power3.out", "expo.out", "sine.out"],
+      "avoid": ["bounce", "elastic", "back", "steps"]
+    },
+    "scrollReveal": {
+      "opacity": [0, 1],
+      "translateY": ["40px", "0"],
+      "duration": "0.6s",
+      "stagger": "0.08-0.12s"
+    },
+    "library": {
+      "primary": "GSAP",
+      "plugins": ["ScrollTrigger", "SplitText", "Flip", "Observer", "ScrollSmoother (optional)"]
+    },
+    "_notes": {
+      "general": "Fixed glow opacity mismatch: design-system/01-colors.md's Glow Colors->Primary Glow (rgba(229,57,53,0.45)) previously disagreed with design-system/10-effects.md's Primary Glow Opacity (0.30) for the same value — 0.45 is now canonical everywhere."
+    }
+  },
+  "icon": {
+    "library": "Lucide",
+    "_notes": {
+      "library": "design-system/08-icons.md names Heroicons as a 'secondary' library alongside Lucide as primary. Per the confirmed Next.js/React tech-stack decision, standardize on Lucide only — do not mix icon libraries in the same component tree."
+    }
+  }
+}

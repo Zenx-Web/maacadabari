@@ -117,7 +117,9 @@ MAAC Red
 
 Opacity
 
-0.30
+0.45
+
+(Corrected to match design-system/01-colors.md -> Glow Colors -> Primary Glow, rgba(229,57,53,0.45), which previously disagreed with this file's 0.30.)
 
 Used for
 
