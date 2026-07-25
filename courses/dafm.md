@@ -125,23 +125,19 @@ Career Preparation
 
 ## Topics
 
-Visual Design Fundamentals
+Fundamentals of Visual Design
 
-Storytelling
+Layout & Animatics
 
-Digital Illustration
+World of Generative AI
 
-Design Principles
+Concepts of Filmmaking
 
-Filmmaking Basics
+Digital Design
 
-Storyboarding
+Compositing
 
-Generative AI Fundamentals
-
-Video Editing
-
-Introduction to Compositing
+Video & Sound Editing
 
 ---
 
@@ -149,21 +145,13 @@ Introduction to Compositing
 
 Adobe Photoshop
 
-Adobe Premiere Pro
-
 Adobe After Effects
 
-Storyboarder
+Adobe Premiere Pro
 
 Adobe Audition
 
-ChatGPT
-
-Adobe Firefly
-
-Leonardo AI
-
-Runway
+Storyboarder
 
 ---
 
@@ -187,29 +175,25 @@ AI Assisted Creativity
 
 ## Topics
 
-Introduction to 3D
-
 3D Modeling
 
-Materials
+Texturing
 
-Lighting
+3D Animation
 
-Rendering
+Lighting & Rendering in V-Ray
 
-Animation Basics
+Character Setup & Skinning
 
-Camera Animation
-
-Scene Creation
+Particles, Dynamics & Advanced Effects
 
 ---
 
 ## Software
 
-Autodesk Maya
+Autodesk 3ds Max
 
-Arnold Renderer
+V-Ray
 
 ---
 
@@ -239,31 +223,9 @@ Adobe Audition
 
 Storyboarder
 
-Autodesk Maya
+Autodesk 3ds Max
 
-Arnold Renderer
-
----
-
-# AI Tools
-
-ChatGPT
-
-Adobe Firefly
-
-Leonardo AI
-
-Runway
-
-Midjourney
-
-Sora
-
-ElevenLabs
-
-Suno AI
-
-ComfyUI
+V-Ray
 
 ---
 
@@ -307,23 +269,21 @@ Students are introduced to:
 
 Graduates can pursue entry-level roles such as:
 
-• Junior 3D Animator
+• Design Visualisation Artist
 
-• Junior Modeling Artist
+• Lighting Artist
 
-• Layout Artist
+• Animator
 
-• Lighting Assistant
+• Rigging Artist
 
-• Render Artist
+• Motion Graphics Artist
 
-• Production Assistant
+• 3D Modeling Artist
 
-• Asset Artist
+• Video Editor
 
-• Content Creator
-
-• Motion Graphics Assistant
+• 3D Visualiser
 
 ---
 

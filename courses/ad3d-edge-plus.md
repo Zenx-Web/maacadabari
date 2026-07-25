@@ -407,13 +407,13 @@ Fundamentals of CG Lighting
 
 Design & Colour Theory
 
-CG Lighting & Shaders
+CG Lighting & Use of Shaders
 
 Lighting Environments
 
 Advanced Shaders
 
-Production Tips
+Production Tips & Tricks
 
 Software
 
@@ -431,11 +431,9 @@ Topics
 
 Animation Foundation
 
-Character Animation
+Character Animation & Body Dynamics
 
-Body Dynamics
-
-Performance Animation
+Basic Performance Animation
 
 Advanced Performance Animation
 
@@ -451,17 +449,17 @@ MotionBuilder
 
 Topics
 
-Computer Aided Design
+Fundamentals of Computer Aided Design
 
-Architectural Visualization
+3D Architectural & Event Design
 
-Event Design
+Event & Stall Design Visualisation
 
-Advanced Visualization
+Advanced 3D Visualisation
 
-Realtime Visualization
+Realtime 3D Visualisation
 
-Product Design
+3D Product Design & Visualisation
 
 Software
 
@@ -481,25 +479,55 @@ Substance 3D Stager
 
 # CareerX
 
-Students additionally learn
+Eligible post completion of the course. Structured across four semesters:
 
-Studio Workflow
+## Semester I
 
-Production Pipelines
+StoryTelling: Multi-platform narratives for Film, Games, and XR
 
-Asset Optimization
+Art Direction: Visual impact via mood, color, and composition
 
-Look Development
+World Building: Narrative-driven environment design
 
-Professional Portfolio
+Studio Pipeline: Professional workflows, timelines, and approvals
 
-Animation Performance
+Gen AI Power: AI-driven ideation, storyboarding, and previz
 
-Gen AI Production Workflow
+## Semester II
 
-Real-Time Production
+3D Pipeline: Mastering departmental workflows and deadlines
 
-Industry Ready Portfolio
+Asset Workflow: Creating production-ready assets without errors
+
+Scene Optimization: Using proxies, LODs, and instancing for performance
+
+LookDev & Lighting: Cinematic lighting using practical references
+
+Animation: Transforming storyboards into shots with clear body mechanics
+
+## Semester III
+
+Studio Workflow: Execute professional workflows from modeling to final texturing
+
+Asset Optimization: Build optimized, production-ready assets with clean topology
+
+VFX Integration: Master CG-to-plate matching through lighting and LookDev
+
+Performance Driven Animation: Create story-driven performances with precise body mechanics
+
+Gen AI Integration: Leverage GenAI for rapid ideation and production optimization
+
+## Semester IV
+
+Character FX: Solving hair, fur, and cloth simulation issues
+
+Real-Time Worlds: Building optimized, game-ready environments
+
+Unreal Cinematics: Mastering real-time lighting and mood
+
+Gen AI LookDev: Enhancing visual development via Gen AI
+
+Studio Portfolio: Finalizing professional-grade showcases
 
 ---
 

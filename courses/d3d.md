@@ -125,23 +125,13 @@ Career Preparation
 
 ## Topics
 
-Visual Design Fundamentals
+Fundamentals of Visual Design
 
-Storytelling
+Basics of Filmmaking
 
 Digital Design
 
-Filmmaking Basics
-
-Storyboarding
-
-Generative AI for Creators
-
-Image Generation
-
-Video Editing
-
-Compositing Basics
+Video & Sound Editing
 
 ---
 
@@ -149,21 +139,11 @@ Compositing Basics
 
 Adobe Photoshop
 
-Storyboarder
-
 Adobe Premiere Pro
-
-Adobe After Effects
 
 Adobe Audition
 
-ChatGPT
-
-Adobe Firefly
-
-Leonardo AI
-
-Runway
+Adobe After Effects
 
 ---
 
@@ -187,29 +167,21 @@ Editing
 
 ## Topics
 
-Introduction to 3D
+3D Modeling
 
-Modeling
+PBR Texturing
 
-Materials
+Advanced CG Lighting
 
-UV Mapping
-
-Lighting
-
-Rendering
-
-Character Setup
-
-Animation Basics
+Prop & Character Setup
 
 ---
 
 ## Software
 
-Autodesk Maya
+Autodesk 3ds Max
 
-Arnold Renderer
+Autodesk Maya
 
 ---
 
@@ -231,19 +203,9 @@ Animation Fundamentals
 
 ## Topics
 
-Advanced Modeling
+3D Animation
 
-Character Animation
-
-Dynamics
-
-Particles
-
-Lighting
-
-Rendering
-
-Portfolio Production
+Particles, Dynamics & Advanced Effects
 
 ---
 
@@ -252,8 +214,6 @@ Portfolio Production
 Autodesk Maya
 
 Substance 3D Painter
-
-Arnold Renderer
 
 ---
 
@@ -281,35 +241,11 @@ Adobe After Effects
 
 Adobe Audition
 
-Storyboarder
+Autodesk 3ds Max
 
 Autodesk Maya
 
 Substance 3D Painter
-
-Arnold Renderer
-
----
-
-# AI Tools
-
-ChatGPT
-
-Adobe Firefly
-
-Leonardo AI
-
-Runway
-
-Midjourney
-
-Sora
-
-ElevenLabs
-
-Suno AI
-
-ComfyUI
 
 ---
 
@@ -353,11 +289,9 @@ Students are introduced to:
 
 Graduates can pursue roles such as:
 
-• 3D Animator
+• 3D Modeling Artist
 
-• Character Animator
-
-• Layout Artist
+• Texturing Artist
 
 • Lighting Artist
 
@@ -365,13 +299,13 @@ Graduates can pursue roles such as:
 
 • 3D Generalist
 
-• Asset Artist
+• Character Animator
 
-• Environment Artist
+• Layout Artist
 
-• Visualization Artist
+• Rigging Artist
 
-• Motion Graphics Artist
+• 3D Visualiser
 
 ---
 

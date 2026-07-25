@@ -129,21 +129,21 @@ Career Preparation
 
 ## Topics
 
-Visual Design Fundamentals
+Fundamentals of Visual Design
+
+Introduction to Digital Content
 
 Digital Design
 
-Introduction to 3D Graphics
+Basics of Filmmaking
 
-Storytelling Fundamentals
+World of Generative AI
 
-Generative AI for Creative Professionals
+Layout & Animatics
 
-Image & Video Generation
+Video and Sound Editing
 
-Basic Video Editing
-
-Creative Design Principles
+Basics of Compositing
 
 ---
 
@@ -151,21 +151,17 @@ Creative Design Principles
 
 Adobe Photoshop
 
+Storyboarder
+
 Adobe Premiere Pro
+
+Adobe Audition
 
 Adobe After Effects
 
-Storyboarder
-
 ChatGPT
 
-Adobe Firefly
-
 Leonardo AI
-
-Runway
-
-Midjourney
 
 ---
 
@@ -187,19 +183,21 @@ Digital Storytelling
 
 ## Topics
 
+Introduction to Maya
+
 3D Modeling
 
-Hard Surface Modeling
+PBR Texturing
 
-Environment Design
+Advanced CG Lighting
 
-Materials
+Lighting & Rendering in Arnold
 
-UV Mapping
+Prop & Character Setup
 
-Lighting Fundamentals
+3D Animation
 
-Rendering
+Particles, Dynamics & Advanced Effects with Bifrost
 
 ---
 
@@ -231,31 +229,25 @@ Rendering
 
 ## Topics
 
-Real-Time Asset Creation
+Digital Sculpting & Advanced CG Modeling
 
-Game Environment Design
+Photogrammetry Workflow
 
-Level Assembly
+Visual Design for Games
 
-Real-Time Materials
+Realtime 3D
 
-Lighting for Games
-
-Virtual Cameras
-
-Sequencer
-
-Optimization
+Cloth Simulation & FX
 
 ---
 
 ## Software
 
+Marvelous Designer
+
+ZBrush
+
 Unreal Engine
-
-Quixel Bridge
-
-Megascans
 
 Substance 3D Sampler
 
@@ -365,27 +357,31 @@ Students also learn:
 
 Possible roles include:
 
-• 3D Artist
+• 3D Modeling Artist
+
+• Texturing Artist
 
 • Environment Artist
 
-• Game Artist
-
-• Unreal Engine Artist
-
-• Visualization Artist
-
-• Product Visualization Designer
-
-• Architectural Visualization Artist
-
-• Asset Artist
-
 • Lighting Artist
 
-• Technical Artist
+• 3D Animator
 
-• Virtual Production Artist
+• 3D Generalist
+
+• 3D Visualiser
+
+• Game Asset Artist
+
+• 3D Pre-Viz Artist
+
+• Look Dev Artist
+
+• Product Modeler
+
+• CG Layout Artist
+
+• Unreal Generalist
 
 ---
 
