@@ -7,7 +7,7 @@ Slug:
 /courses/professional/maya-pro
 
 Duration:
-Short-Term Professional Program
+192 Hours
 
 Pathway:
 Skill Enhancement
@@ -44,7 +44,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+192 Hours
 
 Learning Mode
 
@@ -200,22 +200,13 @@ Students create:
 # Software Covered
 
 - Autodesk Maya
-- Arnold Renderer
+- Substance 3D Painter
 
 ---
 
 # Career Opportunities
 
-- 3D Artist
-- Character Artist
-- Environment Artist
-- Animator
-- Rigging Artist
-- Lighting Artist
-- Rendering Artist
-- Asset Artist
-- Game Artist
-- Freelancer
+This is a skill-enhancement course; career impact depends on the learner's existing role and combined skill set.
 
 ---
 
@@ -279,7 +270,7 @@ No prior experience is required. The course begins with Maya Fundamentals before
 
 ## Which software will I learn?
 
-Students learn Autodesk Maya and the Arnold Renderer.
+Students learn Autodesk Maya and Substance 3D Painter.
 
 ---
 

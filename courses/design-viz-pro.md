@@ -7,7 +7,7 @@ Slug:
 /courses/professional/design-viz-pro
 
 Duration:
-Short-Term Professional Program
+180 Hours
 
 Pathway:
 Skill Enhancement
@@ -48,7 +48,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+180 Hours
 
 Learning Mode
 
@@ -197,22 +197,18 @@ Students create:
 
 # Software Covered
 
-- Autodesk 3ds Max
-- V-Ray / Arnold
 - Adobe Photoshop
+- Adobe Premiere
+- Autodesk 3ds Max
+- SketchUp
+- Lumion
+- V-Ray
 
 ---
 
 # Career Opportunities
 
-- Architectural Visualizer
-- Interior Visualizer
-- Product Visualizer
-- Rendering Artist
-- 3D Designer
-- CAD Visualization Artist
-- Freelance Visualizer
-- Design Consultant
+Careers in animation, architecture & engineering firms, and event production houses.
 
 ---
 
@@ -278,7 +274,7 @@ No prior experience is required — the course explicitly welcomes "Beginners in
 
 ## Which software will I learn?
 
-You will learn Autodesk 3ds Max, V-Ray / Arnold and Adobe Photoshop.
+You will learn Adobe Photoshop, Adobe Premiere, Autodesk 3ds Max, SketchUp, Lumion and V-Ray.
 
 ---
 

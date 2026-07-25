@@ -7,7 +7,7 @@ Slug:
 /courses/professional/cgpd-plus
 
 Duration:
-Short-Term Professional Program
+110 Hours
 
 Pathway:
 Skill Enhancement
@@ -46,7 +46,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+110 Hours
 
 Learning Mode
 
@@ -190,23 +190,16 @@ Students create
 # Software Covered
 
 - Adobe Photoshop
+- Adobe Lightroom
 - Adobe Illustrator
 - Adobe InDesign
-- Adobe Acrobat
+- Adobe Dimension
 
 ---
 
 # Career Opportunities
 
-- Graphic Designer
-- Print Designer
-- Publication Designer
-- Branding Designer
-- Packaging Designer
-- Marketing Designer
-- Layout Artist
-- Creative Executive
-- Freelance Graphic Designer
+This is a skill-enhancement course; career impact depends on the learner's existing role and combined skill set.
 
 ---
 
@@ -273,7 +266,7 @@ No prior experience is required — the course explicitly welcomes "Beginners" a
 
 ## Which software will I learn?
 
-You will learn Adobe Photoshop, Adobe Illustrator, Adobe InDesign and Adobe Acrobat.
+You will learn Adobe Photoshop, Adobe Lightroom, Adobe Illustrator, Adobe InDesign and Adobe Dimension.
 
 ---
 

@@ -7,7 +7,7 @@ Slug:
 /courses/professional/blender-pro
 
 Duration:
-Short-Term Professional Program
+144 Hours
 
 Pathway:
 Skill Enhancement
@@ -46,7 +46,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+144 Hours
 
 Learning Mode
 
@@ -210,25 +210,12 @@ Students create:
 # Software Covered
 
 - Blender
-- Blender Geometry Nodes
-- Blender Sculpt Mode
-- Cycles Renderer
-- Eevee Renderer
 
 ---
 
 # Career Opportunities
 
-- 3D Artist
-- Blender Artist
-- Product Visualizer
-- Motion Graphics Artist
-- Environment Artist
-- Character Artist
-- Freelancer
-- Architectural Visualizer
-- Asset Creator
-- Content Creator
+This is a skill-enhancement course; career impact depends on the learner's existing role and combined skill set.
 
 ---
 
@@ -295,7 +282,7 @@ No prior experience is required. The course begins with Blender Fundamentals —
 
 ## Which software will I learn?
 
-Students learn Blender, including Blender Geometry Nodes, Blender Sculpt Mode, the Cycles Renderer and the Eevee Renderer.
+Students learn Blender, using its built-in modeling, sculpting, texturing, lighting (Eevee and Cycles) and simulation toolset.
 
 ---
 

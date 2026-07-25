@@ -7,7 +7,7 @@ Slug:
 /courses/professional/compositing-plus
 
 Duration:
-Short-Term Professional Program
+172 Hours
 
 Pathway:
 Skill Enhancement
@@ -46,7 +46,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+172 Hours
 
 Learning Mode
 
@@ -193,23 +193,19 @@ Students create
 
 # Software Covered
 
-- Foundry Nuke
-- DaVinci Resolve
-- SilhouetteFX
+- Adobe Photoshop
+- Adobe After Effects
+- Fusion
 - Mocha
+- SilhouetteFX
+- 3D Equalizer
+- Foundry Nuke
 
 ---
 
 # Career Opportunities
 
-- Junior Compositor
-- VFX Artist
-- Roto Artist
-- Paint Artist
-- Matchmove Artist
-- Motion Graphics Artist
-- Colorist
-- Freelance Compositor
+This is a skill-enhancement course; career impact depends on the learner's existing role and combined skill set.
 
 ---
 
@@ -274,7 +270,7 @@ No prior experience is required — the course explicitly welcomes "Beginners in
 
 ## Which software will I learn?
 
-You will learn Foundry Nuke, DaVinci Resolve, SilhouetteFX and Mocha.
+You will learn Adobe Photoshop, Adobe After Effects, Fusion, Mocha, SilhouetteFX, 3D Equalizer and Foundry Nuke.
 
 ---
 

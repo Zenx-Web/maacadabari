@@ -7,7 +7,7 @@ Slug:
 /courses/professional/max-pro
 
 Duration:
-Short-Term Professional Program
+144 Hours
 
 Pathway:
 Skill Enhancement
@@ -46,7 +46,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+144 Hours
 
 Learning Mode
 
@@ -188,21 +188,13 @@ Students create
 # Software Covered
 
 - Autodesk 3ds Max
-- Arnold Renderer
+- V-Ray
 
 ---
 
 # Career Opportunities
 
-- Architectural Visualizer
-- Interior Visualizer
-- 3D Artist
-- Product Visualizer
-- Environment Artist
-- Game Asset Artist
-- Rendering Artist
-- Design Consultant
-- Freelancer
+This is a skill-enhancement course; career impact depends on the learner's existing role and combined skill set.
 
 ---
 
@@ -266,7 +258,7 @@ No prior experience is required. The course begins with 3ds Max Fundamentals bef
 
 ## Which software will I learn?
 
-Students learn Autodesk 3ds Max and the Arnold Renderer.
+Students learn Autodesk 3ds Max and V-Ray.
 
 ---
 

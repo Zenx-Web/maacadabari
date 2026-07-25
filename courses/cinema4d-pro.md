@@ -7,7 +7,7 @@ Slug:
 /courses/professional/cinema4d-pro
 
 Duration:
-Short-Term Professional Program
+120 Hours
 
 Pathway:
 Skill Enhancement
@@ -46,7 +46,7 @@ Professional Course
 
 Duration
 
-Short-Term Professional Program
+120 Hours
 
 Learning Mode
 
@@ -210,22 +210,13 @@ Students create:
 
 # Software Covered
 
-- Maxon Cinema 4D
-- Redshift Renderer
-- Adobe After Effects Integration
+- Cinema 4D
 
 ---
 
 # Career Opportunities
 
-- Motion Graphics Artist
-- Broadcast Designer
-- 3D Motion Designer
-- Product Visualizer
-- Commercial Animator
-- Content Creator
-- Advertising Designer
-- Freelance Motion Designer
+This is a skill-enhancement course; career impact depends on the learner's existing role and combined skill set.
 
 ---
 
@@ -291,7 +282,7 @@ No prior experience is required. The course begins with Cinema 4D Fundamentals b
 
 ## Which software will I learn?
 
-Students learn Maxon Cinema 4D, the Redshift Renderer, and Adobe After Effects integration.
+Students learn Cinema 4D.
 
 ---
 
