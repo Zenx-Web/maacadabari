@@ -36,6 +36,34 @@ Students work on practical architectural projects while building a professional 
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Design Viz Pro
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Architecture Students
@@ -228,6 +256,38 @@ Skills gained can be applied in:
 
 ---
 
+# FAQ
+
+## What is this course about?
+
+Design Viz Pro is a specialized professional course focused on architectural visualization and interior rendering. It teaches students how to create realistic interiors, exteriors and product visualizations using industry-standard software and rendering workflows, covering 3D modeling, materials & texturing, lighting, rendering and post production.
+
+---
+
+## Who should join this course?
+
+This course is designed for Architecture Students, Interior Designers, Civil Engineers, Product Designers, 3D Artists, Visualization Artists, Freelancers and Beginners interested in Architectural Visualization.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required — the course explicitly welcomes "Beginners interested in Architectural Visualization" alongside architecture students, interior designers, civil engineers, product designers, 3D artists, visualization artists and freelancers.
+
+---
+
+## Which software will I learn?
+
+You will learn Autodesk 3ds Max, V-Ray / Arnold and Adobe Photoshop.
+
+---
+
+## What certificate will I receive?
+
+On completion you receive a MAAC Certificate.
+
+---
+
 # CTA
 
 Transform architectural ideas into stunning visual experiences.
@@ -238,7 +298,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -259,6 +319,10 @@ V-Ray,
 3ds Max,
 Architecture Course,
 MAAC
+
+Canonical URL
+
+/courses/professional/design-viz-pro
 
 ---
 

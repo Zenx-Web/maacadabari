@@ -34,6 +34,34 @@ This course introduces students to professional compositing workflows including 
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Compositing Plus
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Beginners interested in VFX
@@ -224,6 +252,38 @@ Skills gained can be applied in
 
 ---
 
+# FAQ
+
+## What is this course about?
+
+Compositing Plus introduces students to professional compositing workflows including keying, masking, tracking, color correction, CG integration and shot finishing, preparing them for work across films, OTT platforms, television, advertising and digital media.
+
+---
+
+## Who should join this course?
+
+This course is designed for Beginners interested in VFX, Animation Students, Video Editors, Motion Graphics Artists, Aspiring Compositors, Freelancers and Content Creators.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required — the course explicitly welcomes "Beginners interested in VFX" alongside animation students, video editors, motion graphics artists, aspiring compositors, freelancers and content creators.
+
+---
+
+## Which software will I learn?
+
+You will learn Foundry Nuke, DaVinci Resolve, SilhouetteFX and Mocha.
+
+---
+
+## What certificate will I receive?
+
+On completion you receive a MAAC Certificate.
+
+---
+
 # CTA
 
 Turn raw footage into cinematic visual experiences.
@@ -234,7 +294,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -255,6 +315,10 @@ Tracking,
 CGI,
 Color Grading,
 MAAC
+
+Canonical URL
+
+/courses/professional/compositing-plus
 
 ---
 

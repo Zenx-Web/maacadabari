@@ -34,6 +34,34 @@ CGPD Plus introduces students to modern design principles, typography, layout de
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Computer Graphics & Print Design Plus (CGPD Plus)
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - Beginners
@@ -223,6 +251,38 @@ Skills gained can be applied in
 
 ---
 
+# FAQ
+
+## What is this course about?
+
+CGPD Plus is a professional course focused on graphic design, branding, print media and digital publishing. It introduces students to modern design principles, typography, layout design, branding, print production and digital publishing using industry-standard Adobe Creative Cloud applications.
+
+---
+
+## Who should join this course?
+
+This course is designed for Beginners, Creative Students, Marketing Professionals, Small Business Owners, Freelancers, Graphic Designers, Print Designers and Content Creators.
+
+---
+
+## Do I need prior experience?
+
+No prior experience is required — the course explicitly welcomes "Beginners" alongside creative students, marketing professionals, small business owners, freelancers, graphic designers, print designers and content creators.
+
+---
+
+## Which software will I learn?
+
+You will learn Adobe Photoshop, Adobe Illustrator, Adobe InDesign and Adobe Acrobat.
+
+---
+
+## What certificate will I receive?
+
+On completion you receive a MAAC Certificate.
+
+---
+
 # CTA
 
 Design brands that stand out and create visuals that leave a lasting impression.
@@ -233,7 +293,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -254,6 +314,10 @@ Adobe InDesign,
 Branding,
 Packaging Design,
 MAAC
+
+Canonical URL
+
+/courses/professional/cgpd-plus
 
 ---
 

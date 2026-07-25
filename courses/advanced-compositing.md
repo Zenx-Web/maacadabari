@@ -32,6 +32,34 @@ This course focuses on advanced compositing techniques including chroma keying, 
 
 ---
 
+# Quick Facts
+
+Course Name
+
+Advanced Compositing
+
+Category
+
+Professional Course
+
+Duration
+
+Short-Term Professional Program
+
+Learning Mode
+
+Offline
+
+Certification
+
+MAAC Certificate
+
+Learning Pathway
+
+Skill Enhancement
+
+---
+
 # Who Is This Course For?
 
 - VFX Students
@@ -226,6 +254,38 @@ Students build
 
 ---
 
+# FAQ
+
+## What is this course about?
+
+Advanced Compositing is designed for aspiring VFX artists who want to master professional compositing techniques used in films, television, OTT productions and commercials, covering chroma keying, rotoscoping, tracking, color matching, multi-pass compositing and cinematic finishing.
+
+---
+
+## Who should join this course?
+
+This course is designed for VFX Students, Motion Graphics Artists, Video Editors, Compositing Artists, Filmmakers, Freelancers and Professionals looking to upgrade their skills.
+
+---
+
+## Do I need prior experience?
+
+The course is built for VFX students and practicing artists — including motion graphics artists, video editors, compositing artists, filmmakers and freelancers — as well as professionals looking to upgrade their existing skills, rather than being aimed purely at complete beginners.
+
+---
+
+## Which software will I learn?
+
+You will learn Foundry Nuke, DaVinci Resolve, SilhouetteFX and Mocha (Tracking).
+
+---
+
+## What certificate will I receive?
+
+On completion you receive a MAAC Certificate.
+
+---
+
 # CTA
 
 Master the art of cinematic compositing and visual effects.
@@ -236,7 +296,7 @@ Apply Today.
 
 ---
 
-# SEO
+# SEO Metadata
 
 Title
 
@@ -257,6 +317,10 @@ Rotoscoping,
 Tracking,
 CG Integration,
 MAAC
+
+Canonical URL
+
+/courses/professional/advanced-compositing
 
 ---
 
