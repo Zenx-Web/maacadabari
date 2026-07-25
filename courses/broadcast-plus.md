@@ -49,7 +49,7 @@ Duration
 
 Difficulty
 
-{{BEGINNER | INTERMEDIATE | ADVANCED}} (not specified in source content)
+Not specified in brochure source
 
 Learning Mode
 
