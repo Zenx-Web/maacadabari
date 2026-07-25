@@ -4,7 +4,7 @@ Category: Visual Effects
 
 Slug: compositing-editing-plus
 
-Duration: 288 Hours
+Duration: 240 Hours
 
 Learning Pathway:
 
@@ -39,7 +39,7 @@ Visual Effects
 
 Duration
 
-288 Hours
+240 Hours
 
 Learning Mode
 
@@ -209,7 +209,15 @@ Tracking
 
 Cleanup
 
-Basic Color Correction
+Art of Rotoscopy
+
+Node-based Compositing
+
+3D Camera Projection
+
+Live Action Compositing
+
+Colour Grading
 
 Visual Effects Integration
 
@@ -223,7 +231,15 @@ Adobe Premiere Pro
 
 Adobe After Effects
 
+Fusion
+
 Mocha Pro
+
+SilhouetteFX
+
+3D Equalizer
+
+Nuke
 
 DaVinci Resolve
 
@@ -255,11 +271,17 @@ Adobe After Effects
 
 Adobe Audition
 
-DaVinci Resolve
+Fusion
 
 Mocha Pro
 
-Media Encoder
+SilhouetteFX
+
+3D Equalizer
+
+Nuke
+
+DaVinci Resolve
 
 ---
 
@@ -359,25 +381,19 @@ Commercial Video Production
 
 Graduates may pursue roles such as
 
-Video Editor
-
-Assistant Editor
-
 Compositor
+
+Roto Artist
+
+Paint Artist
+
+BG Prep Artist
+
+Match Moving Artist
 
 Motion Graphics Artist
 
-Content Creator
-
-YouTube Editor
-
-Social Media Video Editor
-
-Corporate Video Editor
-
-Advertising Editor
-
-Digital Content Producer
+Video Editor
 
 ---
 

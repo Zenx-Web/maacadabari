@@ -4,7 +4,7 @@ Category: Visual Effects
 
 Slug: vfx-plus
 
-Duration: 432 Hours
+Duration: 384 Hours
 
 Learning Pathway:
 
@@ -37,7 +37,7 @@ Visual Effects
 
 Duration
 
-432 Hours
+384 Hours
 
 Learning Mode
 
@@ -159,13 +159,9 @@ Storyboarder
 
 ChatGPT
 
-Adobe Firefly
-
 Leonardo AI
 
-Runway
-
-Midjourney
+Stability AI
 
 ---
 
@@ -213,7 +209,11 @@ Silhouette
 
 Mocha Pro
 
-PFTrack
+Substance 3D Sampler
+
+Reality Capture
+
+3D Equalizer
 
 ---
 
@@ -257,8 +257,6 @@ Autodesk Maya
 
 Substance 3D Painter
 
-Arnold Renderer
-
 Adobe After Effects
 
 ---
@@ -295,13 +293,15 @@ Silhouette
 
 Mocha Pro
 
-PFTrack
-
 Autodesk Maya
 
 Substance 3D Painter
 
-Arnold Renderer
+Substance 3D Sampler
+
+Reality Capture
+
+3D Equalizer
 
 ---
 
@@ -371,23 +371,21 @@ Graduates may pursue roles such as:
 
 • VFX Compositor
 
+• CG Compositor
+
 • Matchmove Artist
-
-• Tracking Artist
-
-• Roto Artist
-
-• Paint Artist
 
 • Motion Graphics Artist
 
-• Junior FX Artist
+• BG Prep Artist
 
-• Lighting Artist
+• Roto Artist
 
-• Render Artist
+• Pre-Visualisation Artist
 
-• Digital Compositor
+• Video Editor
+
+• Matte Painter
 
 ---
 

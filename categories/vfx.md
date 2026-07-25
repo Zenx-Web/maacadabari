@@ -308,7 +308,7 @@ VFX PLUS
 
 Duration
 
-432 Hours
+384 Hours
 
 Description
 
@@ -324,7 +324,7 @@ Compositing & Editing Plus
 
 Duration
 
-288 Hours
+240 Hours
 
 Description
 

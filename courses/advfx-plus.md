@@ -19,9 +19,9 @@ Advanced
 
 # Course Overview
 
-ADVFX PLUS is MAAC's flagship Visual Effects program designed to prepare students for professional careers in film, OTT, television, advertising, gaming, and virtual production.
+ADVFX PLUS is MAAC's flagship Visual Effects program designed to prepare students for professional careers in film, OTT, television, advertising, and gaming.
 
-The course covers the complete VFX production pipeline, from visual storytelling and compositing fundamentals to advanced FX simulation, matchmoving, lighting, rendering, Unreal Engine workflows, and AI-assisted content creation.
+The course covers the complete VFX production pipeline, from visual storytelling and compositing fundamentals to 3D production, advanced FX simulation, matchmoving, look development, and colour grading, alongside AI-assisted content creation.
 
 Students graduate with a professional showreel and production-ready portfolio aligned with current studio pipelines.
 
@@ -71,7 +71,7 @@ This course is ideal for:
 
 • Motion Graphics Designers
 
-• Virtual Production Artists
+• Layout Artists
 
 • Students interested in Hollywood-style VFX
 
@@ -89,9 +89,9 @@ After completing this course students should be able to:
 
 • Create cinematic lighting and rendering
 
-• Produce realistic FX simulations
+• Produce realistic FX simulations including pyro, fluids, and cloth
 
-• Work with Unreal Engine for real-time production
+• Perform look development and colour grading
 
 • Integrate AI into creative workflows
 
@@ -105,23 +105,15 @@ Creative Foundation
 
 ↓
 
-Post Production
-
-↓
-
 3D Production
 
 ↓
 
-Advanced VFX
+Advanced CG Lighting & Rendering
 
 ↓
 
-FX Simulation
-
-↓
-
-Real-Time Production
+FX Simulation & Compositing
 
 ↓
 
@@ -137,23 +129,23 @@ Career Preparation
 
 ## Topics
 
-Visual Design Fundamentals
+Fundamentals of Visual Design
+
+Introduction to Digital Content
 
 Digital Design
 
-Storytelling
+Basics of Filmmaking
 
-Filmmaking Basics
+Generative AI for Digital Creators - Imagery
 
-Storyboarding
+Layout & Animatics
 
-Generative AI for Creators
+Video & Sound Editing
 
-Video Editing
+Basics of Compositing
 
-Audio Editing
-
-Introduction to Compositing
+Generative AI for Digital Creators - Video & Audio
 
 ---
 
@@ -161,25 +153,35 @@ Introduction to Compositing
 
 Adobe Photoshop
 
-Adobe Premiere Pro
+Storyboarder
 
-Adobe After Effects
+Adobe Premiere Pro
 
 Adobe Audition
 
-Storyboarder
+Adobe After Effects
 
 ChatGPT
 
-Adobe Firefly
+DeepSeek
 
 Leonardo AI
-
-Runway
 
 Midjourney
 
 Sora
+
+Runway ML
+
+ElevenLabs
+
+Suno AI
+
+ComfyUI
+
+Adobe Firefly
+
+Canva AI Tools
 
 ---
 
@@ -203,49 +205,45 @@ Compositing Basics
 
 ## Topics
 
-Camera Tracking
+Introduction to 3D World
 
-Matchmoving
+3D Design
 
-Rotoscopy
+Texturing
 
-Paint
+Fundamentals of CG Lighting
 
-Keying
+Hierarchy, Connections & Character Setup
 
-Compositing
+Introduction to 3D Animation
 
-Color Correction
+3D Modeling
 
-Multi-pass Compositing
-
-CG Integration
+PBR Texturing
 
 ---
 
 ## Software
 
-Nuke
+3ds Max
 
-Silhouette
+Autodesk Maya
 
-Mocha Pro
-
-PFTrack
+Substance 3D Painter
 
 ---
 
 ## Skills
 
-Camera Solving
+3D Modeling
 
-Cleanup
+Texturing
 
-Green Screen Compositing
+CG Lighting Fundamentals
 
-Tracking
+Character Setup
 
-Professional Compositing
+3D Animation Basics
 
 ---
 
@@ -253,27 +251,21 @@ Professional Compositing
 
 ## Topics
 
-3D Modeling
+Advanced CG Lighting & Rendering
 
-Texturing
+Virtual Cinematography
 
-Lighting
+3D Animation
 
-Rendering
+Prop & Character Setup
 
-Look Development
+Particles, Dynamics & Advanced Effects
 
-Dynamics
+Hair Grooming with X-Gen
 
-Particles
+Photogrammetry Workflow
 
-Destruction
-
-Smoke
-
-Fire
-
-Fluid Simulation
+Introduction to Procedural FX
 
 ---
 
@@ -281,9 +273,9 @@ Fluid Simulation
 
 Autodesk Maya
 
-Substance 3D Painter
+Substance 3D Stager
 
-Arnold Renderer
+Reality Capture
 
 Houdini
 
@@ -291,17 +283,15 @@ Houdini
 
 ## Skills
 
-3D Asset Creation
-
-Lighting
+Advanced Lighting
 
 Rendering
 
-Simulation
+Character Rigging
 
-Procedural FX
+Photogrammetry
 
-Look Development
+Procedural FX Basics
 
 ---
 
@@ -309,35 +299,39 @@ Look Development
 
 ## Topics
 
-Virtual Production
+Introduction to Pyro and Fluids FX
 
-Real-Time Rendering
+Cloth Simulation & FX
 
-Environment Creation
+Introduction to Rotoscopy
 
-Photogrammetry
+Planar Motion Tracking
 
-Sequencer
+Camera Tracking and MatchMove
 
-Realtime Lighting
+Advanced Compositing
 
-Portfolio Production
+Look Development
 
-Professional Showreel
+Colour Grading
 
 ---
 
 ## Software
 
-Unreal Engine
+Houdini
 
-Quixel Bridge
+Marvelous Designer
 
-Megascans
+Mocha
 
-Substance 3D Sampler
+SilhouetteFX
 
-Substance 3D Stager
+3D Equalizer
+
+Nuke
+
+Katana
 
 DaVinci Resolve
 
@@ -345,15 +339,19 @@ DaVinci Resolve
 
 ## Skills
 
-Virtual Production
+Fluid & Pyro Simulation
 
-Real-Time Workflow
+Cloth Simulation
 
-Environment Design
+Rotoscopy
 
-Portfolio Development
+Camera Tracking & MatchMove
 
-Professional Presentation
+Advanced Compositing
+
+Look Development
+
+Colour Grading
 
 ---
 
@@ -369,33 +367,31 @@ Adobe Audition
 
 Storyboarder
 
-Nuke
-
-Silhouette
-
-Mocha Pro
-
-PFTrack
+3ds Max
 
 Autodesk Maya
 
 Substance 3D Painter
 
-Substance 3D Sampler
-
 Substance 3D Stager
+
+Reality Capture
 
 Houdini
 
-Arnold Renderer
+Marvelous Designer
+
+Mocha
+
+SilhouetteFX
+
+3D Equalizer
+
+Nuke
+
+Katana
 
 DaVinci Resolve
-
-Unreal Engine
-
-Quixel Bridge
-
-Megascans
 
 ---
 
@@ -420,6 +416,8 @@ ElevenLabs
 Suno AI
 
 ComfyUI
+
+Canva AI Tools
 
 ---
 
@@ -495,7 +493,7 @@ Students gain practical experience in:
 
 • Rendering
 
-• Virtual Production
+• Colour Grading
 
 ---
 
@@ -505,33 +503,31 @@ Graduates may pursue roles such as:
 
 • VFX Compositor
 
-• Matchmove Artist
-
-• Tracking Artist
-
-• Roto Artist
-
-• Paint Artist
+• CG Compositor
 
 • FX Artist
 
-• Lighting Artist
+• CHF Artist
 
-• Look Development Artist
+• Layout Artist
 
-• Render Artist
+• Matchmove Artist
 
-• Motion Graphics Designer
+• Motion Graphics Artist
 
-• Unreal Engine Artist
+• BG Prep Artist
 
-• Virtual Production Artist
+• Roto Artist
 
-• Environment Artist
+• Pre-Visualisation Artist
 
-• Pipeline Artist
+• Video Editor
 
-• AI VFX Artist
+• Matte Painter
+
+• AI Visualiser
+
+• AI Concept Artist
 
 ---
 
@@ -551,11 +547,9 @@ Students graduate with projects including:
 
 • Fire Simulation
 
-• Destruction Simulation
+• Cloth Simulation Project
 
 • Motion Graphics Sequence
-
-• Virtual Production Scene
 
 • Professional Demo Reel
 
@@ -601,7 +595,7 @@ Yes. The course begins with design and filmmaking fundamentals before progressin
 
 ## Which software will I learn?
 
-Students work with Adobe Creative Cloud, Nuke, Houdini, Autodesk Maya, Unreal Engine, DaVinci Resolve, and other professional industry tools.
+Students work with Adobe Creative Cloud, Nuke, Houdini, Autodesk Maya, Katana, DaVinci Resolve, and other professional industry tools.
 
 ---
 
@@ -613,7 +607,7 @@ Yes. AI-assisted workflows are integrated throughout the program to enhance idea
 
 ## What careers can I pursue?
 
-Graduates can work in film studios, OTT productions, advertising agencies, game studios, virtual production teams, and VFX companies.
+Graduates can work in film studios, OTT productions, advertising agencies, game studios, and VFX companies.
 
 ---
 
@@ -645,11 +639,11 @@ ADVFX PLUS Course | MAAC Adabari
 
 Description
 
-Master compositing, matchmoving, Houdini FX, Unreal Engine, virtual production, and AI-powered VFX workflows with MAAC Adabari's ADVFX PLUS program.
+Master compositing, matchmoving, Houdini FX, look development, colour grading, and AI-powered VFX workflows with MAAC Adabari's ADVFX PLUS program.
 
 Keywords
 
-ADVFX PLUS, VFX Course, Houdini, Nuke, Unreal Engine, Visual Effects, MAAC Adabari
+ADVFX PLUS, VFX Course, Houdini, Nuke, Maya, Visual Effects, MAAC Adabari
 
 Canonical URL
 
