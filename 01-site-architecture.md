@@ -93,7 +93,7 @@ Each category leads to its own dedicated page.
 
 # Course Categories
 
-There are four primary learning categories.
+There are seven primary learning categories.
 
 --------------------------------------------
 
@@ -164,6 +164,91 @@ UI / UX Design
 Courses
 
 • UI & UX Design Pro
+
+--------------------------------------------
+
+5.
+
+Game Design
+
+--------------------------------------------
+
+Courses
+
+• ADIDG Plus
+
+• APGDI
+(Advanced Program in Game Design & Integration)
+
+• PMGDI
+(Program in Mobile Game Design & Integration)
+
+• 3DGAI
+(3D Game Art & Integration)
+
+--------------------------------------------
+
+6.
+
+Broadcast
+
+--------------------------------------------
+
+Courses
+
+• APMG
+(Advanced Program in Motion Graphics)
+
+• Broadcast Plus
+
+--------------------------------------------
+
+7.
+
+Digital Filmmaking & Photography
+
+--------------------------------------------
+
+Courses
+
+• PPVP
+(Professional Program in Video Production)
+
+• DFM
+(Digital Filmmaking)
+
+• Digital Photography
+
+---
+
+# Secondary Course Groupings
+
+These do not appear as primary navigation categories, but have their
+own listing route (see URL Structure). They mirror how the roadmap
+already separated "Professional Courses" and "International Programs"
+from the four original categories.
+
+## Professional Courses (Skill Enhancement)
+
+Short, non-CareerX/CreatorX courses. Route: /courses/professional/[slug]
+
+• Blender Pro
+• Maya Pro
+• Max Pro
+• Cinema 4D Pro
+• Design Viz Pro
+• Advanced Compositing
+• Compositing Plus
+• CGPD Plus
+• Gen AI for Digital Creators
+
+## International Programs
+
+Route: /courses/international/[slug]
+
+• IPVAD-XR
+(International Program in Visual Arts, Design & XR — available at
+selected centers only)
 
 ---
 
@@ -338,6 +423,102 @@ Animation Category
 --------------------------------
 
 /courses/uiux/uiux-design-pro
+
+--------------------------------
+
+/courses/game-design
+
+--------------------------------
+
+/courses/game-design/adidg-plus
+
+--------------------------------
+
+/courses/game-design/apgdi
+
+--------------------------------
+
+/courses/game-design/pmgdi
+
+--------------------------------
+
+/courses/game-design/3dgai
+
+--------------------------------
+
+/courses/broadcast
+
+--------------------------------
+
+/courses/broadcast/apmg
+
+--------------------------------
+
+/courses/broadcast/broadcast-plus
+
+--------------------------------
+
+/courses/digital-filmmaking-photography
+
+--------------------------------
+
+/courses/digital-filmmaking-photography/ppvp
+
+--------------------------------
+
+/courses/digital-filmmaking-photography/dfm
+
+--------------------------------
+
+/courses/digital-filmmaking-photography/digital-photography
+
+--------------------------------
+
+/courses/professional
+
+--------------------------------
+
+/courses/professional/blender-pro
+
+--------------------------------
+
+/courses/professional/maya-pro
+
+--------------------------------
+
+/courses/professional/max-pro
+
+--------------------------------
+
+/courses/professional/cinema4d-pro
+
+--------------------------------
+
+/courses/professional/design-viz-pro
+
+--------------------------------
+
+/courses/professional/advanced-compositing
+
+--------------------------------
+
+/courses/professional/compositing-plus
+
+--------------------------------
+
+/courses/professional/cgpd-plus
+
+--------------------------------
+
+/courses/professional/gen-ai-for-digital-creators
+
+--------------------------------
+
+/courses/international
+
+--------------------------------
+
+/courses/international/ipvad-xr
 
 --------------------------------
 

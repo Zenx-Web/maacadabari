@@ -46,6 +46,8 @@ This document serves as the master roadmap for the complete documentation of the
 - [x] digital-design.md
 - [x] uiux.md
 - [x] game-design.md
+- [x] broadcast.md
+- [x] digital-filmmaking-photography.md
 
 ---
 
@@ -78,9 +80,21 @@ This document serves as the master roadmap for the complete documentation of the
 
 ### Game Design
 
+- [x] adidg-plus.md
 - [x] apgdi.md
 - [x] pmgdi.md
 - [x] 3dgai.md
+
+### Broadcast
+
+- [x] apmg.md
+- [x] broadcast-plus.md
+
+### Digital Filmmaking & Photography
+
+- [x] ppvp.md
+- [x] dfm.md
+- [x] digital-photography.md
 
 ### International Programs
 
@@ -100,6 +114,7 @@ This document serves as the master roadmap for the complete documentation of the
 - [x] advanced-compositing.md
 - [x] compositing-plus.md
 - [x] cgpd-plus.md
+- [x] gen-ai-for-digital-creators.md
 
 ---
 
@@ -343,8 +358,8 @@ This document serves as the master roadmap for the complete documentation of the
 |----------|------:|
 | Project Docs | 4 |
 | Design System | 14 |
-| Categories | 5 |
-| Course Pages | 23 |
+| Categories | 7 |
+| Course Pages | 30 |
 | Website Pages | 18 |
 | Components | 18 |
 | Content Library | 9 |
@@ -352,4 +367,19 @@ This document serves as the master roadmap for the complete documentation of the
 | Development | 15 |
 | Assets | 6 |
 | QA | 5 |
-| **Total** | **126 Markdown Files** |
+| **Total** | **135 Markdown Files** |
+
+Categories and Course Pages counts were revised upward after a full
+reconciliation pass against the official MAAC brochure
+(MAAC_Brochure_2026.pdf), which surfaced 2 categories (Broadcast,
+Digital Filmmaking & Photography) and 7 courses (ADIDG Plus, APMG,
+Broadcast Plus, PPVP, DFM, Digital Photography, Gen AI for Digital
+Creators) that existed in the official brochure but had no presence
+in this repo. The same pass also corrected numerous duration,
+software, and career-option errors across existing course files
+where content had drifted from the brochure - see git history for
+the full list of fixes. course-template-professional.md was also
+added as a second course schema (for short skill-enhancement courses
+that don't have CareerX/CreatorX content) and is not counted in
+"Course Pages" above, matching how course-template.md was never
+counted either.

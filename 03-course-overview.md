@@ -166,6 +166,66 @@ Button
 
 Explore UI / UX
 
+----------------------------------------
+
+Game Design
+
+Description
+
+Build interactive worlds, characters and gameplay systems for mobile, PC, console and immersive experiences.
+
+Available Courses
+
+• ADIDG Plus
+
+• APGDI
+
+• PMGDI
+
+• 3DGAI
+
+Button
+
+Explore Game Design
+
+----------------------------------------
+
+Broadcast
+
+Description
+
+Craft motion graphics, visual identity and high-impact visuals for TV, OTT platforms and live broadcasts.
+
+Available Courses
+
+• APMG
+
+• Broadcast Plus
+
+Button
+
+Explore Broadcast
+
+----------------------------------------
+
+Digital Filmmaking & Photography
+
+Description
+
+Capture, edit and produce compelling films, videos and photography for brands, platforms and personal projects.
+
+Available Courses
+
+• PPVP
+
+• DFM
+
+• Digital Photography
+
+Button
+
+Explore Digital Filmmaking & Photography
+
 ---
 
 # Choosing The Right Course
@@ -187,6 +247,18 @@ Best for students interested in branding, graphics, web design, social media and
 UI / UX
 
 Best for students interested in websites, apps and digital product design.
+
+Game Design
+
+Best for students who enjoy games, interactivity, world building and character design.
+
+Broadcast
+
+Best for students interested in motion graphics, on-air visuals and broadcast/OTT design.
+
+Digital Filmmaking & Photography
+
+Best for students interested in filmmaking, video production and photography.
 
 ---
 
@@ -255,6 +327,50 @@ Examples
 • Interaction Designer
 
 • Front-End Designer
+
+----------------------------------------
+
+Game Design
+
+Examples
+
+• Game Designer
+
+• Game Artist
+
+• Game Animator
+
+• Technical Artist
+
+• 3D Game Modeler
+
+----------------------------------------
+
+Broadcast
+
+Examples
+
+• Motion Graphics Designer
+
+• Broadcast Designer
+
+• Broadcast & OTT Graphics Artist
+
+• Video Editor
+
+----------------------------------------
+
+Digital Filmmaking & Photography
+
+Examples
+
+• Video Editor
+
+• Video Content Creator
+
+• Independent Filmmaker
+
+• Photographer
 
 ---
 

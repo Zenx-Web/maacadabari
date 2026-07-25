@@ -180,6 +180,17 @@ Digital Design & Content Creation
 
 UI / UX Design
 
+Game Design
+
+Broadcast
+
+Digital Filmmaking & Photography
+
+With 7 categories, consider a "View All Categories" or carousel/grid
+treatment rather than assuming all 7 fit a single row on desktop -
+this is a layout decision for the Learning Categories component, not
+a reason to hide any category.
+
 Each category card should contain
 
 Category Name
