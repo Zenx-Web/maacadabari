@@ -13,9 +13,17 @@ dist/
 .env.local
 .env.*.local
 
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Vercel
+.vercel
+
 # OS
 .DS_Store
 Thumbs.db
+*.pem
 
 # Logs
 *.log
