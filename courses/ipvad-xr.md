@@ -136,16 +136,26 @@ Students begin with strong creative fundamentals.
 
 ### Learn
 
+- Introduction to AVGCXR & Industry Trends
 - Design Principles
 - Graphic Design
+- Web Based Content Creation
 - Branding
 - Typography
 - Layout Design
+- Digital Publishing
+- Product Mock-up for Advertising
+- Concepts of UI and UX Design
+- UI and UX Design
+- Gen AI for Imagery
 - Digital Illustration
 - Photography
+- Fundamental of Film Making
+- Storyboarding & Animatics
 - Video Editing
 - Motion Graphics
 - Audio Editing
+- Gen AI for Video Production
 - Storytelling
 
 ---
@@ -179,12 +189,23 @@ Build immersive experiences using modern production pipelines.
 
 ### Learn
 
+- Hair Grooming with XGen
+- Digital Sculpting & Advanced CG Modeling
+- Cloth Simulation and FX
+- 3D Photogrammetry Workflow
+- Visual Design for Games
+- Game Level Design
 - Visual Effects
 - Compositing
 - Matchmoving
 - XR Production
 - Virtual Production
 - Unreal Engine Workflow
+- Design Thinking for Immersive Media
+- Introduction to Procedural FX
+- Introduction to Pyro and Fluids FX
+- Introduction to Rotoscopy
+- Video Editing and Color Grading
 - AI-Assisted Production
 - Creator Economy
 - Portfolio Development
@@ -200,6 +221,7 @@ Build immersive experiences using modern production pipelines.
 - Illustrator
 - InDesign
 - Express
+- Canva
 - Premiere Pro
 - After Effects
 - Audition
@@ -305,11 +327,10 @@ Graduates can become
 - Digital Designer
 - Video Producer
 - Video Editor
-- Motion Graphics Artist
 - 3D Artist
 - 3D Generalist
 - XR Content Creator
-- Unreal Engine Artist
+- Unreal Engine Content Creator
 - Game Visual Designer
 - VFX Artist
 - Compositing Artist
@@ -429,7 +450,7 @@ Yes. Year 3 includes AI-Assisted Production, the Software Covered list includes 
 
 ## What careers can I pursue?
 
-Graduates can become Digital Designer, Video Producer, Video Editor, Motion Graphics Artist, 3D Artist, 3D Generalist, XR Content Creator, Unreal Engine Artist, Game Visual Designer, VFX Artist, Compositing Artist, AI Content Creator, Freelance Creator or Creative Entrepreneur.
+Graduates can become Digital Designer, Video Producer, Video Editor, 3D Artist, 3D Generalist, XR Content Creator, Unreal Engine Content Creator, Game Visual Designer, VFX Artist, Compositing Artist, AI Content Creator, Freelance Creator or Creative Entrepreneur.
 
 ---
 

@@ -213,10 +213,9 @@ Professional Portfolio
 ### Modules
 
 - Console Game Theory
-- AAA Production Pipeline
-- Design Documentation
-- AAA UI/UX
-- AAA Level Design
+- Console Pre-Production & Design Documentation
+- UI/UX for AAA Game
+- AAA Game Level Design
 
 ### Software
 

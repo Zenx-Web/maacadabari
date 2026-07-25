@@ -127,7 +127,7 @@ Professional Portfolio
 - UI Design for Games
 - Game Art Fundamentals
 - Game Design Document
-- Generative AI for Digital Creators
+- Generative AI for Digital Creators-Imagery
 - Introduction to Maya
 - 3D Modeling
 - Materials & Textures
