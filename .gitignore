@@ -8,6 +8,10 @@ out/
 build/
 dist/
 
+# Velite generated output (rebuilt from src/content on every dev/build)
+.velite/
+public/static/
+
 # Env files
 .env
 .env.local

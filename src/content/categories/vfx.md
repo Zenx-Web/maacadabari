@@ -1,0 +1,125 @@
+---
+slug: "vfx"
+title: "Visual Effects (VFX)"
+navigationLabel: "Visual Effects"
+order: 2
+icon: "Sparkles"
+purpose: |
+  This page introduces visitors to the world of Visual Effects (VFX). Its goal is to explain what VFX is, where it is used, the careers available in the industry, and the professional VFX courses offered by MAAC Adabari. This page should inspire students to explore VFX while helping them choose the most suitable course. Do not display the complete syllabus or curriculum here — each course has its own dedicated page.
+heroTitle: "Visual Effects — Create The Impossible. Bring Imagination To Reality."
+heroSubtitle: "Visual Effects combine creativity, technology and cinematic storytelling to create breathtaking experiences for films, OTT platforms, games and advertisements."
+whatIsIt: |
+  Visual Effects (VFX) is the process of creating or enhancing imagery that cannot be captured during live-action filming.
+
+  Artists combine live footage with computer-generated elements to produce scenes that appear realistic and immersive.
+
+  VFX is used in Movies, OTT Platforms, Television, Web Series, Advertisements, Gaming, Virtual Production, Corporate Films, Architectural Visualization and Scientific Visualization.
+pipeline:
+  - "Concept"
+  - "Pre-Visualization"
+  - "Matchmoving"
+  - "Modeling"
+  - "Texturing"
+  - "Rigging"
+  - "Animation"
+  - "FX Simulation"
+  - "Lighting"
+  - "Rendering"
+  - "Compositing"
+  - "Color Grading"
+  - "Final Delivery"
+whyChoose:
+  - "Feature Films"
+  - "OTT Originals"
+  - "Advertisements"
+  - "Music Videos"
+  - "Virtual Production"
+  - "Game Cinematics"
+  - "Broadcast Graphics"
+  - "Corporate Videos"
+  - "Digital Marketing Campaigns"
+  - "Immersive Experiences"
+industryOverview: |
+  The VFX industry has evolved rapidly with technologies such as Artificial Intelligence, Virtual Production, LED Volume Studios, Real-Time Rendering, Cloud Rendering, Procedural Simulation, Machine Learning, Game Engines and Photogrammetry.
+
+  Modern artists are expected to understand both traditional VFX workflows and AI-assisted production techniques.
+careerOpportunities:
+  - "Compositor"
+  - "Roto Artist"
+  - "Paint Artist"
+  - "Matchmove Artist"
+  - "Tracking Artist"
+  - "FX Artist"
+  - "Lighting Artist"
+  - "Render Artist"
+  - "Look Development Artist"
+  - "Environment Artist"
+  - "Motion Graphics Artist"
+  - "Virtual Production Artist"
+  - "Pipeline Artist"
+  - "AI VFX Artist"
+  - "AI Content Creator"
+availableCourses:
+  - name: "ADVFX PLUS"
+    slug: "advfx-plus"
+    duration: "602 Hours"
+    description: "MAAC's flagship Visual Effects program covering the complete VFX production pipeline, CareerX, CreatorX and AI-powered workflows."
+  - name: "VFX PLUS"
+    slug: "vfx-plus"
+    duration: "384 Hours"
+    description: "Professional VFX production program focusing on compositing, FX, lighting and industry-ready skills."
+  - name: "Compositing & Editing Plus"
+    slug: "compositing-editing-plus"
+    duration: "240 Hours"
+    description: "Focused program covering compositing, editing, motion graphics and post-production workflows."
+softwareEcosystem:
+  - "Adobe Photoshop"
+  - "Adobe Premiere Pro"
+  - "Adobe After Effects"
+  - "Adobe Audition"
+  - "Autodesk Maya"
+  - "Nuke"
+  - "Silhouette"
+  - "Mocha Pro"
+  - "PFTrack"
+  - "Houdini"
+  - "Substance 3D Painter"
+  - "Unreal Engine"
+  - "Arnold Renderer"
+  - "V-Ray"
+  - "DaVinci Resolve"
+aiIntegration:
+  - "Concept Development"
+  - "Image Generation"
+  - "Video Generation"
+  - "Rotoscoping Assistance"
+  - "Cleanup Workflows"
+  - "Reference Creation"
+  - "Creative Brainstorming"
+  - "Audio Generation"
+  - "Workflow Automation"
+studentPortfolio:
+  - "Hollywood-style Composites"
+  - "Green Screen Composites"
+  - "CG Integration"
+  - "Motion Graphics"
+  - "Digital Matte Paintings"
+  - "Explosion Simulations"
+  - "Fire & Smoke Effects"
+  - "Destruction Simulations"
+  - "Tracking Projects"
+  - "Professional VFX Showreel"
+faq:
+  - question: "What is VFX?"
+  - question: "What is the difference between Animation and VFX?"
+  - question: "Can beginners join VFX courses?"
+  - question: "Which software will I learn?"
+  - question: "Do VFX courses include AI?"
+  - question: "What careers are available after VFX?"
+  - question: "Which VFX course should I choose?"
+  - question: "Do I need drawing skills?"
+cta:
+  headline: "Ready to build a career in Visual Effects?"
+  primaryButton: "Explore VFX Courses"
+  secondaryButton: "Book Career Counselling"
+---
