@@ -311,6 +311,22 @@ Button
 
 View Course
 
+--------------------------------
+
+ADIDG Plus
+
+Duration
+
+602 Hours
+
+Description
+
+MAAC's flagship Gaming & Interactive Design program covering Gaming, Metaverse and 3D design, with Unity, Unreal Engine, MetaHuman, CareerX and CreatorX for careers in Media & Entertainment.
+
+Button
+
+View Course
+
 ---
 
 # Software & AI Ecosystem
@@ -397,7 +413,7 @@ Each project should open a detailed preview where available.
 
 What is Game Design?
 
-What is the difference between APGDI, PMGDI and 3DGAI?
+What is the difference between APGDI, PMGDI, 3DGAI and ADIDG Plus?
 
 Do I need drawing or art skills to join?
 
