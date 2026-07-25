@@ -149,9 +149,50 @@
   --shadow-elevation-sm: 0 4px 12px rgba(0, 0, 0, 0.2);
   --shadow-elevation-md: 0 10px 30px rgba(0, 0, 0, 0.28);
   --shadow-elevation-lg: 0 24px 60px rgba(0, 0, 0, 0.35);
+
+  /*
+   * Glow — an accent that should only appear during interaction
+   * (design-system/10-effects.md). Never stack with elevation shadows.
+   */
+  --shadow-glow-primary: 0 0 32px rgba(229, 57, 53, 0.45);
+  --shadow-glow-white: 0 0 32px rgba(255, 255, 255, 0.12);
 }
 
 body {
   background: var(--color-background-1);
   color: var(--color-text-primary);
+}
+
+/* Glass panel — nav, floating panels, hero cards, dialogs only
+   (design-system/10-effects.md: "never apply glass to every card"). */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Radial glow mesh, used sparingly behind hero content. */
+.glow-mesh {
+  background:
+    radial-gradient(
+      ellipse 60% 50% at 30% 0%,
+      rgba(229, 57, 53, 0.16),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse 50% 40% at 80% 20%,
+      rgba(255, 255, 255, 0.05),
+      transparent 60%
+    );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

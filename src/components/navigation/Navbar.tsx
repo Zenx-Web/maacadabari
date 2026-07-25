@@ -2,12 +2,21 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { Icon } from "@/components/ui/Icon";
 import type { Category } from "@/lib/content";
 
+const staticLinks = [
+  { label: "Student Works", href: "/student-works" },
+  { label: "Placements", href: "/placements" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
+];
+
 export function Navbar({ categories }: { categories: Category[] }) {
-  const [open, setOpen] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [coursesOpen, setCoursesOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 min-h-[88px] border-b border-border bg-background-1/75 backdrop-blur-[20px]">
@@ -19,14 +28,65 @@ export function Navbar({ categories }: { categories: Category[] }) {
           MAAC Adabari
         </Link>
 
-        <nav className="hidden laptop:flex items-center gap-md flex-wrap justify-end">
-          {categories.map((category) => (
+        <nav className="hidden laptop:flex items-center gap-lg">
+          <div className="relative" onBlur={() => setCoursesOpen(false)}>
+            <button
+              type="button"
+              aria-expanded={coursesOpen}
+              onClick={() => setCoursesOpen((v) => !v)}
+              className="flex items-center gap-1 text-body-sm text-text-secondary hover:text-text-primary transition-colors"
+            >
+              Courses
+              <ChevronDown
+                className={`size-4 transition-transform duration-200 ${coursesOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+
+            {coursesOpen && (
+              <div className="absolute left-1/2 top-full -translate-x-1/2 pt-sm">
+                <div className="w-[640px] rounded-card border border-border bg-background-2/95 backdrop-blur-[20px] p-md shadow-elevation-lg">
+                  <div className="grid grid-cols-2 gap-1">
+                    {categories.map((category) => (
+                      <Link
+                        key={category.slug}
+                        href={`/courses/${category.slug}`}
+                        className="group flex items-center gap-sm rounded-icon p-sm hover:bg-white/6 transition-colors"
+                      >
+                        <span className="flex size-9 shrink-0 items-center justify-center rounded-icon bg-brand-red/10 text-brand-red">
+                          <Icon name={category.icon} className="size-5" />
+                        </span>
+                        <span>
+                          <span className="block text-body-sm text-text-primary group-hover:text-brand-red transition-colors">
+                            {category.navigationLabel}
+                          </span>
+                          <span className="block text-caption text-text-muted">
+                            {category.availableCourses.length} Course
+                            {category.availableCourses.length === 1
+                              ? ""
+                              : "s"}
+                          </span>
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                  <Link
+                    href="/courses"
+                    className="mt-xs block rounded-icon px-sm py-1 text-caption uppercase tracking-buttons text-brand-red hover:bg-white/6 transition-colors"
+                  >
+                    View All Courses →
+                  </Link>
+                </div>
+              </div>
+            )}
+          </div>
+
+          {staticLinks.map((link) => (
             <Link
-              key={category.slug}
-              href={`/courses/${category.slug}`}
+              key={link.href}
+              href={link.href}
               className="text-body-sm text-text-secondary hover:text-text-primary transition-colors whitespace-nowrap"
             >
-              {category.navigationLabel}
+              {link.label}
             </Link>
           ))}
         </nav>
@@ -39,25 +99,39 @@ export function Navbar({ categories }: { categories: Category[] }) {
 
         <button
           type="button"
-          aria-label={open ? "Close menu" : "Open menu"}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
+          aria-label={mobileOpen ? "Close menu" : "Open menu"}
+          aria-expanded={mobileOpen}
+          onClick={() => setMobileOpen((v) => !v)}
           className="laptop:hidden text-text-primary"
         >
-          {open ? <X className="size-6" /> : <Menu className="size-6" />}
+          {mobileOpen ? <X className="size-6" /> : <Menu className="size-6" />}
         </button>
       </div>
 
-      {open && (
-        <nav className="laptop:hidden absolute inset-x-0 top-[88px] bg-background-1 border-b border-border px-mobile-pad py-lg flex flex-col gap-md">
+      {mobileOpen && (
+        <nav className="laptop:hidden absolute inset-x-0 top-full max-h-[calc(100vh-88px)] overflow-y-auto bg-background-1 border-b border-border px-mobile-pad py-lg flex flex-col gap-xs">
+          <p className="text-caption uppercase tracking-buttons text-text-muted mt-xs">
+            Courses
+          </p>
           {categories.map((category) => (
             <Link
               key={category.slug}
               href={`/courses/${category.slug}`}
-              onClick={() => setOpen(false)}
-              className="text-body text-text-secondary hover:text-text-primary transition-colors"
+              onClick={() => setMobileOpen(false)}
+              className="py-1 text-body text-text-secondary hover:text-text-primary transition-colors"
             >
               {category.navigationLabel}
+            </Link>
+          ))}
+          <div className="my-sm border-t border-border" />
+          {staticLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setMobileOpen(false)}
+              className="py-1 text-body text-text-secondary hover:text-text-primary transition-colors"
+            >
+              {link.label}
             </Link>
           ))}
           <Button href="/book-counselling" className="mt-sm">
