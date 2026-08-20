@@ -8,7 +8,7 @@ heroTheme: "Futuristic • Interactive • Real-time • Creative Technology"
 purpose: |
   This page introduces visitors to the world of Game Design. Its goal is to explain what Game Design is, where it is used, the careers available in the industry, and the professional Game Design courses offered by MAAC Adabari. This page should inspire students to explore Game Design while helping them choose the most suitable course. Do not display the complete syllabus or curriculum here — each course should have its own dedicated page.
 heroTitle: "Build Worlds. Design Experiences. Create Games That Millions Play."
-heroSubtitle: "Game Design is where creativity meets technology. Every great game begins with an idea and grows through storytelling, world building, character design, level creation, gameplay mechanics, and real-time interaction. At MAAC Adabari, students learn to create immersive gaming experiences using industry-standard tools like Unity, Unreal Engine, Maya, ZBrush, and Substance 3D Painter. Whether you dream of developing mobile games, AAA titles, or immersive AR/VR experiences, our Game Design programs prepare you for the next generation of interactive entertainment."
+heroSubtitle: "Game Design is where creativity meets technology — building interactive worlds, characters and gameplay experiences that players can explore and control in real time."
 whatIsIt: |
   Game Design is the craft of building interactive worlds, characters and gameplay systems that players can explore and control in real time.
 

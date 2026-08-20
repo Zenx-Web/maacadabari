@@ -36,3 +36,5 @@ npm-debug.log*
 # Reference materials (source-of-truth brochure, not site content)
 MAAC_Brochure_2026.pdf
 .brochure_extract.txt
+
+.vercel

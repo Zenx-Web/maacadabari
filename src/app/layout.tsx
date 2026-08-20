@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
+import { CursorGlow } from "@/components/motion/CursorGlow";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -33,6 +34,7 @@ export default function RootLayout({
       className={`${GeistSans.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background-1 text-text-primary font-body">
+        <CursorGlow />
         {children}
       </body>
     </html>

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { Icon } from "@/components/ui/Icon";
@@ -23,13 +24,27 @@ export function Navbar({ categories }: { categories: Category[] }) {
       <div className="mx-auto flex min-h-[88px] max-w-wide items-center justify-between gap-md px-mobile-pad tablet:px-tablet-pad laptop:px-laptop-pad py-sm">
         <Link
           href="/"
-          className="text-h6 font-sans text-text-primary whitespace-nowrap"
+          className="flex items-center gap-xs text-h6 font-sans text-text-primary whitespace-nowrap"
         >
+          <Image
+            src="/images/logo/maac-logo.png"
+            alt=""
+            width={40}
+            height={22}
+            className="h-6 w-auto"
+            priority
+          />
           MAAC Adabari
         </Link>
 
         <nav className="hidden laptop:flex items-center gap-lg">
-          <div className="relative" onBlur={() => setCoursesOpen(false)}>
+          <div
+            className="relative"
+            onBlur={(e) => {
+              if (e.currentTarget.contains(e.relatedTarget as Node)) return;
+              window.setTimeout(() => setCoursesOpen(false), 150);
+            }}
+          >
             <button
               type="button"
               aria-expanded={coursesOpen}

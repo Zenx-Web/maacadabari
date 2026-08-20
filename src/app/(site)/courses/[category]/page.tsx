@@ -8,6 +8,9 @@ import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
 import { Button } from "@/components/ui/Button";
 import { CourseCard } from "@/components/cards/CourseCard";
+import { ScrollReveal } from "@/components/motion/ScrollReveal";
+import { FloatingOrbs } from "@/components/motion/FloatingOrbs";
+import { MagneticButton } from "@/components/motion/MagneticButton";
 
 type Props = {
   params: Promise<{ category: string }>;
@@ -33,19 +36,30 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <main className="flex flex-col">
-      <Section>
-        <Container size="wide" className="text-center">
-          <h1 className="text-h1 tracking-headings">{category.heroTitle}</h1>
-          <p className="mt-md text-body text-text-secondary max-w-reading mx-auto">
-            {category.heroSubtitle}
-          </p>
-        </Container>
-      </Section>
+      <div className="relative overflow-hidden">
+        <FloatingOrbs />
+        <div aria-hidden className="absolute inset-0 glow-mesh" />
+        <Section className="relative">
+          <Container size="wide" className="text-center">
+            <h1 className="text-h1 tracking-headings text-gradient-animate">
+              {category.heroTitle}
+            </h1>
+            <p className="mt-md text-body text-text-secondary max-w-reading mx-auto">
+              {category.heroSubtitle}
+            </p>
+          </Container>
+        </Section>
+      </div>
 
       <Section className="pt-0">
         <Container>
-          <h2 className="text-h3 mb-lg">Available Courses</h2>
-          <div className="grid grid-cols-1 laptop:grid-cols-2 gap-lg">
+          <ScrollReveal>
+            <h2 className="text-h3 mb-lg">Available Courses</h2>
+          </ScrollReveal>
+          <ScrollReveal
+            stagger={0.08}
+            className="grid grid-cols-1 laptop:grid-cols-2 gap-lg"
+          >
             {courses.map((course) => (
               <CourseCard
                 key={course.slug}
@@ -59,23 +73,29 @@ export default async function CategoryPage({ params }: Props) {
                 }
               />
             ))}
-          </div>
+          </ScrollReveal>
         </Container>
       </Section>
 
       <Section className="pt-0">
         <Container size="reading" className="text-center">
-          <h2 className="text-h3">{category.cta.headline}</h2>
-          <div className="mt-md flex flex-wrap gap-sm justify-center">
-            <Button href="/book-counselling">
-              {category.cta.primaryButton}
-            </Button>
-            {category.cta.secondaryButton && (
-              <Button href="/contact" variant="secondary">
-                {category.cta.secondaryButton}
-              </Button>
-            )}
-          </div>
+          <ScrollReveal>
+            <h2 className="text-h3">{category.cta.headline}</h2>
+            <div className="mt-md flex flex-wrap gap-sm justify-center">
+              <MagneticButton>
+                <Button href="/book-counselling">
+                  {category.cta.primaryButton}
+                </Button>
+              </MagneticButton>
+              {category.cta.secondaryButton && (
+                <MagneticButton>
+                  <Button href="/contact" variant="secondary">
+                    {category.cta.secondaryButton}
+                  </Button>
+                </MagneticButton>
+              )}
+            </div>
+          </ScrollReveal>
         </Container>
       </Section>
     </main>

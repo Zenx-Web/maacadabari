@@ -186,6 +186,82 @@ body {
     );
 }
 
+/* Animated gradient text */
+.text-gradient-animate {
+  background: linear-gradient(
+    270deg,
+    #e53935,
+    #ff6b6b,
+    #ff8a65,
+    #e53935
+  );
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 4s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Glitch flicker on hover */
+.glitch-hover:hover {
+  animation: glitch 0.4s steps(2) 1;
+}
+
+@keyframes glitch {
+  0%   { clip-path: inset(0 0 90% 0); transform: translate(-2px, 0); }
+  20%  { clip-path: inset(40% 0 50% 0); transform: translate(2px, 0); }
+  40%  { clip-path: inset(70% 0 10% 0); transform: translate(-1px, 0); }
+  60%  { clip-path: inset(20% 0 70% 0); transform: translate(1px, 0); }
+  80%  { clip-path: inset(80% 0 5% 0);  transform: translate(-2px, 0); }
+  100% { clip-path: inset(0 0 0 0);     transform: translate(0, 0); }
+}
+
+/* Scan-line shimmer for cards */
+@keyframes shimmer {
+  0%   { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(250%) skewX(-15deg); }
+}
+
+.shimmer-on-hover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255,255,255,0.06) 50%,
+    transparent 100%
+  );
+  transform: translateX(-100%) skewX(-15deg);
+  pointer-events: none;
+}
+
+.shimmer-on-hover:hover::after {
+  animation: shimmer 0.7s ease forwards;
+}
+
+/* Pulse ring for CTA button */
+@keyframes pulse-ring {
+  0%   { transform: scale(1);   opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
+.pulse-ring::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(229,57,53,0.6);
+  animation: pulse-ring 1.8s ease-out infinite;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
