@@ -20,7 +20,7 @@ export function Navbar({ categories }: { categories: Category[] }) {
   const [coursesOpen, setCoursesOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 min-h-[88px] border-b border-border bg-background-1/75 backdrop-blur-[20px]">
+    <><header className="sticky top-0 z-50 min-h-[88px] border-b border-border bg-background-1/75 backdrop-blur-[20px]">
       <div className="mx-auto flex min-h-[88px] max-w-wide items-center justify-between gap-md px-mobile-pad tablet:px-tablet-pad laptop:px-laptop-pad py-sm">
         <Link
           href="/"
@@ -123,37 +123,59 @@ export function Navbar({ categories }: { categories: Category[] }) {
         </button>
       </div>
 
-      {mobileOpen && (
-        <nav className="laptop:hidden absolute inset-x-0 top-full max-h-[calc(100vh-88px)] overflow-y-auto bg-background-1 border-b border-border px-mobile-pad py-lg flex flex-col gap-xs">
-          <p className="text-caption uppercase tracking-buttons text-text-muted mt-xs">
+    </header>
+      <div
+        className={`laptop:hidden fixed inset-x-0 top-[88px] bottom-0 z-[999] bg-background-1 transition-all duration-300 ${mobileOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"}`}
+      >
+        <nav className="flex flex-col h-full overflow-y-auto px-mobile-pad py-lg">
+          <p className="text-caption uppercase tracking-buttons text-text-muted mb-xs">
             Courses
           </p>
-          {categories.map((category) => (
-            <Link
-              key={category.slug}
-              href={`/courses/${category.slug}`}
-              onClick={() => setMobileOpen(false)}
-              className="py-1 text-body text-text-secondary hover:text-text-primary transition-colors"
+          <div className="grid grid-cols-1 gap-1">
+            {categories.map((category, i) => (
+              <Link
+                key={category.slug}
+                href={`/courses/${category.slug}`}
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-sm rounded-card p-sm hover:bg-white/5 transition-all duration-200"
+                style={{ animationDelay: `${i * 50}ms` }}
+              >
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-icon bg-brand-red/10 text-brand-red">
+                  <Icon name={category.icon} className="size-4" />
+                </span>
+                <span className="text-body-sm text-text-primary">
+                  {category.navigationLabel}
+                </span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="my-md border-t border-border/50" />
+
+          <div className="flex flex-col gap-1">
+            {staticLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setMobileOpen(false)}
+                className="rounded-card p-sm text-body text-text-secondary hover:text-text-primary hover:bg-white/5 transition-colors"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-auto pt-lg">
+            <Button
+              href="/book-counselling"
+              className="w-full justify-center"
+              size="lg"
             >
-              {category.navigationLabel}
-            </Link>
-          ))}
-          <div className="my-sm border-t border-border" />
-          {staticLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setMobileOpen(false)}
-              className="py-1 text-body text-text-secondary hover:text-text-primary transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
-          <Button href="/book-counselling" className="mt-sm">
-            Book Career Counselling
-          </Button>
+              Book Career Counselling
+            </Button>
+          </div>
         </nav>
-      )}
-    </header>
+      </div>
+    </>
   );
 }

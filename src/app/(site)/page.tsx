@@ -11,6 +11,7 @@ import { ParticleCanvas } from "@/components/motion/ParticleCanvas";
 import { FloatingOrbs } from "@/components/motion/FloatingOrbs";
 import { MagneticButton } from "@/components/motion/MagneticButton";
 import { CountUp } from "@/components/motion/CountUp";
+import { LottieCharacter } from "@/components/motion/LottieCharacter";
 
 const whyMaac = [
   "AI Integrated Learning",
@@ -35,7 +36,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       {/* Hero */}
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden [&_section]:pb-0 [&_section]:pt-8 tablet:[&_section]:pt-12">
         <FloatingOrbs />
         <ParticleCanvas />
         <div aria-hidden className="absolute inset-0 glow-mesh" />
@@ -90,14 +91,24 @@ export default function Home() {
                 </div>
               </div>
 
-              <QuickEnquiryForm categories={categories} />
+              <div className="flex flex-col items-center tablet:items-start">
+                <QuickEnquiryForm categories={categories} />
+                <div className="mt-lg w-72 h-72 tablet:w-80 tablet:h-80 mx-auto tablet:-ml-[85px]">
+                  <LottieCharacter
+                    src="/lottie/cute-tiger.json"
+                    position="bottom-right"
+                    size="w-full h-full"
+                    className="!relative !translate-x-0 !translate-y-0 !top-auto !right-auto !bottom-auto !left-auto !opacity-100 !scale-100"
+                  />
+                </div>
+              </div>
             </div>
           </Container>
         </Section>
       </div>
 
       {/* Why MAAC Adabari */}
-      <Section className="pt-0">
+      <Section className="pt-0 relative">
         <Container>
           <ScrollReveal>
             <h2 className="text-h2 text-center">Why MAAC Adabari</h2>
@@ -119,7 +130,12 @@ export default function Home() {
       </Section>
 
       {/* Learning Categories */}
-      <Section className="pt-0">
+      <Section className="pt-0 relative">
+        <LottieCharacter
+          src="/lottie/creative.json"
+          position="bottom-right"
+          size="w-44 h-44 tablet:w-64 tablet:h-64"
+        />
         <Container size="wide">
           <ScrollReveal className="text-center">
             <h2 className="text-h2">Choose Your Path</h2>
@@ -135,12 +151,32 @@ export default function Home() {
             {categories.map((category) => (
               <CategoryCard key={category.slug} category={category} />
             ))}
+            <div className="relative flex items-center justify-center rounded-card border border-dashed border-border/50 bg-surface/30 p-lg laptop:col-span-2">
+              <LottieCharacter
+                src="/lottie/character-thinking.json"
+                position="left"
+                size="w-48 h-48 tablet:w-56 tablet:h-56"
+                className="!relative !translate-x-0 !translate-y-0 !top-auto !left-auto !opacity-100 !scale-100"
+              />
+              <div className="text-center">
+                <p className="text-h4 text-text-primary">Can&apos;t decide?</p>
+                <p className="mt-xs text-body-sm text-text-secondary max-w-[280px]">
+                  Talk to our counsellors and find the perfect course for your creative journey.
+                </p>
+                <a
+                  href="/book-counselling"
+                  className="mt-md inline-flex items-center gap-xs text-body-sm font-medium text-brand-red hover:underline"
+                >
+                  Book Free Session →
+                </a>
+              </div>
+            </div>
           </ScrollReveal>
         </Container>
       </Section>
 
       {/* CareerX & CreatorX */}
-      <Section className="pt-0">
+      <Section className="pt-0 relative">
         <Container>
           <ScrollReveal
             stagger={0.1}
@@ -198,7 +234,17 @@ export default function Home() {
       </Section>
 
       {/* CTA */}
-      <Section className="pt-0">
+      <Section className="pt-0 relative">
+        <LottieCharacter
+          src="/lottie/pointing.json"
+          position="bottom-left"
+          size="hidden tablet:block tablet:w-56 tablet:h-56"
+        />
+        <LottieCharacter
+          src="/lottie/student.json"
+          position="bottom-right"
+          size="hidden tablet:block tablet:w-56 tablet:h-56"
+        />
         <Container size="reading" className="text-center">
           <ScrollReveal>
             <h2 className="text-h3">

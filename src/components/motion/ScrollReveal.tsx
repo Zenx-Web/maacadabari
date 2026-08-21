@@ -6,6 +6,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.config({ ignoreMobileResize: true });
+  window.addEventListener("load", () => ScrollTrigger.refresh(), { once: true });
 }
 
 // Standard scroll-reveal per design-system/09-animations.md: fade +
@@ -52,7 +54,12 @@ export function ScrollReveal({
       );
     }, ref);
 
-    return () => ctx.revert();
+    const refreshTimer = setTimeout(() => ScrollTrigger.refresh(), 1000);
+
+    return () => {
+      clearTimeout(refreshTimer);
+      ctx.revert();
+    };
   }, [stagger]);
 
   return (
