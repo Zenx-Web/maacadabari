@@ -1,8 +1,9 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ArrowRight } from "lucide-react";
-import { useRef, useState } from "react";
+import { useRef, useState, useCallback } from "react";
 
 export function CourseCard({
   href,
@@ -20,13 +21,42 @@ export function CourseCard({
   video?: string;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const cardRef = useRef<HTMLAnchorElement>(null);
   const [videoFailed, setVideoFailed] = useState(false);
+  const router = useRouter();
 
   const showVideo = video && !videoFailed;
 
+  const handleClick = useCallback(
+    (e: React.MouseEvent) => {
+      const doc = document as any;
+      if (!doc.startViewTransition || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+      e.preventDefault();
+      const card = cardRef.current;
+      if (card) {
+        card.style.viewTransitionName = "course-card";
+        const titleEl = card.querySelector("[data-course-title]") as HTMLElement | null;
+        if (titleEl) titleEl.style.viewTransitionName = "course-title";
+      }
+
+      doc.startViewTransition(() => {
+        if (card) {
+          card.style.viewTransitionName = "";
+          const titleEl = card.querySelector("[data-course-title]") as HTMLElement | null;
+          if (titleEl) titleEl.style.viewTransitionName = "";
+        }
+        router.push(href);
+      });
+    },
+    [href, router]
+  );
+
   return (
     <Link
+      ref={cardRef}
       href={href}
+      onClick={handleClick}
       className="group relative flex flex-col overflow-hidden rounded-card border border-border bg-surface transition-all duration-300 ease-out hover:-translate-y-1 hover:border-brand-red/60 hover:shadow-glow-primary"
       onMouseEnter={() => videoRef.current?.play().catch(() => {})}
       onMouseLeave={() => {
@@ -70,7 +100,7 @@ export function CourseCard({
               "radial-gradient(160px circle at 15% 0%, rgba(229,57,53,0.14), transparent 70%)",
           }}
         />
-        <h3 className="relative text-h5 text-text-primary">{title}</h3>
+        <h3 data-course-title className="relative text-h5 text-text-primary">{title}</h3>
         <p className="relative mt-xs text-caption text-text-secondary uppercase tracking-buttons">
           {duration}
         </p>

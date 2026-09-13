@@ -163,6 +163,10 @@ body {
   color: var(--color-text-primary);
 }
 
+html.site-loading body > *:not([data-loading-screen]) {
+  visibility: hidden;
+}
+
 /* Glass panel — nav, floating panels, hero cards, dialogs only
    (design-system/10-effects.md: "never apply glass to every card"). */
 .glass-panel {
@@ -262,6 +266,133 @@ body {
   pointer-events: none;
 }
 
+/* ── Page-transition wipe overlay ── */
+@keyframes wipe-in {
+  from { transform: translateX(-101%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes wipe-out {
+  from { transform: translateX(0); }
+  to   { transform: translateX(101%); }
+}
+
+@keyframes glitch-flash {
+  0%   { opacity: 0; clip-path: inset(0 0 85% 0); transform: translate(-3px, 0); }
+  15%  { opacity: 1; clip-path: inset(30% 0 50% 0); transform: translate(3px, 0); }
+  30%  { clip-path: inset(60% 0 20% 0); transform: translate(-2px, 0); }
+  45%  { clip-path: inset(10% 0 75% 0); transform: translate(2px, 0); }
+  60%  { clip-path: inset(80% 0 5% 0);  transform: translate(-1px, 0); }
+  75%  { opacity: 0.6; clip-path: inset(0 0 0 0); transform: translate(0, 0); }
+  100% { opacity: 0; clip-path: inset(0 0 0 0); transform: translate(0, 0); }
+}
+
+/* ── Skeleton shimmer with glitch ── */
+@keyframes skeleton-shimmer {
+  0%   { transform: translateX(-100%) skewX(-12deg); }
+  100% { transform: translateX(250%) skewX(-12deg); }
+}
+
+@keyframes skeleton-glitch {
+  0%, 92%  { opacity: 1; transform: translate(0, 0); }
+  93%      { opacity: 0.7; transform: translate(-3px, 0); clip-path: inset(0 0 60% 0); }
+  94%      { opacity: 1; transform: translate(2px, 0); clip-path: inset(40% 0 20% 0); }
+  95%      { opacity: 0.6; transform: translate(-1px, 0); clip-path: inset(70% 0 0 0); }
+  96%      { opacity: 0.9; transform: translate(3px, 0); clip-path: inset(10% 0 70% 0); }
+  97%      { opacity: 1; transform: translate(0, 0); clip-path: inset(0); }
+  100%     { opacity: 1; transform: translate(0, 0); clip-path: inset(0); }
+}
+
+.skeleton-bone {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  animation: skeleton-glitch 2.5s ease-in-out infinite;
+}
+
+.skeleton-bone::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(229, 57, 53, 0.06);
+  opacity: 0;
+  animation: skeleton-rgb-flash 2.5s ease-in-out infinite;
+}
+
+@keyframes skeleton-rgb-flash {
+  0%, 91%, 98%, 100% { opacity: 0; transform: translateX(0); }
+  93%                 { opacity: 0.8; transform: translateX(2px); }
+  95%                 { opacity: 0.4; transform: translateX(-2px); }
+  97%                 { opacity: 0.6; transform: translateX(1px); }
+}
+
+.skeleton-bone::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(229, 57, 53, 0.08) 35%,
+    rgba(255, 255, 255, 0.07) 50%,
+    rgba(53, 200, 229, 0.06) 65%,
+    transparent 100%
+  );
+  transform: translateX(-100%) skewX(-12deg);
+  animation: skeleton-shimmer 1.8s ease-in-out infinite;
+}
+
+/* ── Top loading bar ── */
+@keyframes loading-bar-progress {
+  0%   { transform: scaleX(0); transform-origin: left; }
+  50%  { transform: scaleX(0.7); transform-origin: left; }
+  100% { transform: scaleX(0.9); transform-origin: left; }
+}
+
+@keyframes loading-bar-complete {
+  from { transform: scaleX(0.9); opacity: 1; }
+  to   { transform: scaleX(1); opacity: 0; }
+}
+
+/* ── Page entrance stagger ── */
+@keyframes page-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-reveal > * {
+  opacity: 0;
+  animation: page-reveal 0.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+.page-reveal > *:nth-child(1) { animation-delay: 500ms; }
+.page-reveal > *:nth-child(2) { animation-delay: 560ms; }
+.page-reveal > *:nth-child(3) { animation-delay: 620ms; }
+.page-reveal > *:nth-child(4) { animation-delay: 680ms; }
+.page-reveal > *:nth-child(5) { animation-delay: 740ms; }
+.page-reveal > *:nth-child(6) { animation-delay: 800ms; }
+.page-reveal > *:nth-child(7) { animation-delay: 860ms; }
+.page-reveal > *:nth-child(8) { animation-delay: 920ms; }
+
+/* ── View Transition morph (card → hero) ── */
+::view-transition-old(course-title),
+::view-transition-new(course-title) {
+  animation-duration: 350ms;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+::view-transition-old(course-card),
+::view-transition-new(course-card) {
+  animation-duration: 350ms;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -270,5 +401,10 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  .page-reveal > * {
+    opacity: 1;
+    animation: none;
   }
 }

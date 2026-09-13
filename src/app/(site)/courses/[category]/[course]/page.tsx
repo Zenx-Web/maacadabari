@@ -41,11 +41,17 @@ export default async function CoursePage({ params }: Props) {
       <div className="relative overflow-hidden">
         <FloatingOrbs />
         <div aria-hidden className="absolute inset-0 glow-mesh" />
-        <section className="relative px-md py-4xl text-center max-w-wide mx-auto">
+        <section
+          className="relative px-md py-4xl text-center max-w-wide mx-auto"
+          style={{ viewTransitionName: "course-card" }}
+        >
           <p className="font-mono text-caption tracking-buttons uppercase text-text-secondary">
             {course.category} · {course.duration}
           </p>
-          <h1 className="mt-sm text-display-lg tracking-display text-gradient-animate">
+          <h1
+            className="mt-sm text-display-lg tracking-display text-gradient-animate"
+            style={{ viewTransitionName: "course-title" }}
+          >
             {course.title}
           </h1>
           {course.pathway.length > 0 && (

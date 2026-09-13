@@ -12,6 +12,15 @@ import {
 
 type Status = "idle" | "submitting" | "success" | "error";
 
+const COURSES = [
+  { value: "vfx", label: "VFX" },
+  { value: "3d-animation", label: "3D Animation" },
+  { value: "game-design", label: "Game Design" },
+  { value: "digital-content", label: "Digital Content Creation" },
+  { value: "motion-graphics", label: "Motion Graphics" },
+  { value: "short-term", label: "Short Term Courses" },
+];
+
 export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
@@ -26,15 +35,15 @@ export function ContactForm() {
     const name = (fd.get("name") as string).trim();
     const email = (fd.get("email") as string).trim();
     const rawPhone = fd.get("phone") as string;
-    const message = (fd.get("message") as string).trim();
+    const course = (fd.get("course") as string).trim();
     const phone = cleanPhone(rawPhone);
 
-    // Validation
     const errors: string[] = [];
     if (name.length < 2) errors.push("Name must be at least 2 characters.");
     if (!email) errors.push("Enter a valid email address.");
     if (!isValidPhone(phone))
       errors.push("Enter a valid 10-digit mobile number.");
+    if (!course) errors.push("Please select a course.");
 
     if (errors.length) {
       setErrorMsg(errors.join(" "));
@@ -42,7 +51,6 @@ export function ContactForm() {
       return;
     }
 
-    // Anti-spam
     const spam = checkSpam(phone);
     if (!spam.allowed) {
       setErrorMsg(spam.reason);
@@ -53,12 +61,16 @@ export function ContactForm() {
     setStatus("submitting");
     setErrorMsg("");
 
+    const courseText = COURSES.find((c) => c.value === course)?.label || course;
+
     try {
       await submitToSheets({
         name,
         email,
         phone,
-        message,
+        course,
+        courseText,
+        "Course of Interest": courseText,
         page: window.location.href,
         ts: new Date().toISOString(),
         ref: `REF-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
@@ -87,6 +99,9 @@ export function ContactForm() {
     );
   }
 
+  const inputClass =
+    "h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none";
+
   return (
     <form
       ref={formRef}
@@ -105,28 +120,37 @@ export function ContactForm() {
           type="text"
           name="name"
           placeholder="Your Name"
-          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none"
+          className={inputClass}
         />
         <input
           required
           type="tel"
           name="phone"
           placeholder="Phone Number"
-          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none"
+          className={inputClass}
         />
         <input
           required
           type="email"
           name="email"
           placeholder="Email Address"
-          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none"
+          className={inputClass}
         />
-        <textarea
-          name="message"
-          rows={4}
-          placeholder="How can we help?"
-          className="rounded-button border border-border bg-white/[0.02] px-sm py-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none resize-none"
-        />
+        <select
+          required
+          name="course"
+          defaultValue=""
+          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary focus:border-brand-red focus:outline-none [&>option]:bg-background-2"
+        >
+          <option value="" disabled>
+            Select Course Interest
+          </option>
+          {COURSES.map((c) => (
+            <option key={c.value} value={c.value}>
+              {c.label}
+            </option>
+          ))}
+        </select>
 
         {/* Honeypot */}
         <input

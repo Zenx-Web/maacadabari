@@ -13,7 +13,16 @@ import {
 
 type Status = "idle" | "submitting" | "success" | "error";
 
-export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
+const COURSES = [
+  { value: "vfx", label: "VFX" },
+  { value: "3d-animation", label: "3D Animation" },
+  { value: "game-design", label: "Game Design" },
+  { value: "digital-content", label: "Digital Content Creation" },
+  { value: "motion-graphics", label: "Motion Graphics" },
+  { value: "short-term", label: "Short Term Courses" },
+];
+
+export function QuickEnquiryForm({ categories: _categories }: { categories: Category[] }) {
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const formRef = useRef<HTMLFormElement>(null);
@@ -30,7 +39,6 @@ export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
     const course = (fd.get("course") as string).trim();
     const phone = cleanPhone(rawPhone);
 
-    // Validation
     const errors: string[] = [];
     if (name.length < 2) errors.push("Name must be at least 2 characters.");
     if (!email) errors.push("Enter a valid email address.");
@@ -44,7 +52,6 @@ export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
       return;
     }
 
-    // Anti-spam
     const spam = checkSpam(phone);
     if (!spam.allowed) {
       setErrorMsg(spam.reason);
@@ -55,8 +62,7 @@ export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
     setStatus("submitting");
     setErrorMsg("");
 
-    const courseOption = categories.find((c) => c.slug === course);
-    const courseText = courseOption?.navigationLabel || course;
+    const courseText = COURSES.find((c) => c.value === course)?.label || course;
 
     try {
       await submitToSheets({
@@ -94,6 +100,9 @@ export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
     );
   }
 
+  const inputClass =
+    "h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none";
+
   return (
     <form
       ref={formRef}
@@ -122,21 +131,21 @@ export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
           type="text"
           name="name"
           placeholder="Your Name"
-          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none"
+          className={inputClass}
         />
         <input
           required
           type="tel"
           name="phone"
           placeholder="Phone Number"
-          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none"
+          className={inputClass}
         />
         <input
           required
           type="email"
           name="email"
           placeholder="Email Address"
-          className="h-12 rounded-button border border-border bg-white/[0.02] px-sm text-body-sm text-text-primary placeholder:text-text-muted focus:border-brand-red focus:outline-none"
+          className={inputClass}
         />
         <select
           required
@@ -147,9 +156,9 @@ export function QuickEnquiryForm({ categories }: { categories: Category[] }) {
           <option value="" disabled>
             Select Course Interest
           </option>
-          {categories.map((category) => (
-            <option key={category.slug} value={category.slug}>
-              {category.navigationLabel}
+          {COURSES.map((c) => (
+            <option key={c.value} value={c.value}>
+              {c.label}
             </option>
           ))}
         </select>

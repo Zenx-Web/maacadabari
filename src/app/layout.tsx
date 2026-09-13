@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
+import Script from "next/script";
 import { CursorGlow } from "@/components/motion/CursorGlow";
+import { SiteLoadingScreen } from "@/components/loading/SiteLoadingScreen";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,10 +42,19 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${GeistSans.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background-1 text-text-primary font-body">
+        <Script
+          id="site-loading-gate"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `try{if(!sessionStorage.getItem('maac-visited')||new URLSearchParams(location.search).get('loading')){document.documentElement.classList.add('site-loading')}}catch(e){}`,
+          }}
+        />
         <CursorGlow />
+        <SiteLoadingScreen />
         {children}
       </body>
     </html>
