@@ -87,7 +87,7 @@ export function LoadingScreenFilmReel({ onComplete }: { onComplete: () => void }
       .to(barTrack, { opacity: 0, duration: 0.2 }, 1.5)
       .to(container, { opacity: 0, duration: 0.3, ease: "power2.inOut" }, 1.6);
 
-    return () => tl.kill();
+    return () => { tl.kill(); };
   }, [onComplete]);
 
   if (!show) return null;
